@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin — Italian Knowledge Web</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    background: #F2EBE0; font-family: 'Segoe UI', system-ui, sans-serif; color: #2C1F14;
+    margin: 0; padding: 40px 24px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  h1 { font-size: 20px; margin-bottom: 4px; }
+  .sub { font-size: 13px; color: rgba(44,31,20,0.5); margin-bottom: 28px; }
+  .card {
+    background: #FDFAF6; border: 1px solid rgba(44,31,20,0.1); border-radius: 14px;
+    padding: 24px; margin-bottom: 20px; box-shadow: 0 2px 12px rgba(44,31,20,0.06);
+  }
+  .warn {
+    background: rgba(224,92,75,0.08); border: 1px solid rgba(224,92,75,0.25); border-radius: 10px;
+    padding: 12px 16px; font-size: 12.5px; line-height: 1.6; color: #8a3327; margin-bottom: 20px;
+  }
+  input[type=password], input[type=text] {
+    width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid rgba(44,31,20,0.2);
+    font-size: 14px; margin-bottom: 10px; background: #fff; color: #2C1F14;
+  }
+  label.check { display: flex; align-items: center; gap: 6px; font-size: 12.5px; margin-bottom: 12px; cursor: pointer; }
+  button {
+    padding: 9px 18px; border-radius: 20px; font-size: 13px; font-weight: 600; cursor: pointer;
+    border: 1.5px solid rgba(44,31,20,0.18); background: rgba(44,31,20,0.05); color: #2C1F14;
+  }
+  button:hover { background: rgba(44,31,20,0.1); }
+  button.primary { border-color: rgba(58,126,140,0.5); background: rgba(58,126,140,0.12); color: #205a66; }
+  button.primary:hover { background: rgba(58,126,140,0.2); }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid rgba(44,31,20,0.07); }
+  th { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.5px; color: rgba(44,31,20,0.45); }
+  .cat-row td { background: rgba(44,31,20,0.035); font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: rgba(44,31,20,0.5); padding: 10px 10px 6px; }
+  td.chk { text-align: center; }
+  .missing-lang { opacity: 0.4; }
+  .missing-lang::after { content: " *"; color: #C04A38; }
+  .toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; gap: 12px; flex-wrap: wrap; }
+  .status { font-size: 12.5px; margin-top: 12px; white-space: pre-wrap; }
+  .status .ok { color: #2f7a4f; }
+  .status .err { color: #C04A38; }
+  .add-student { display: flex; gap: 8px; flex-wrap: wrap; align-items: flex-end; }
+  .add-student > div { display: flex; flex-direction: column; gap: 4px; }
+  .add-student label { font-size: 11px; color: rgba(44,31,20,0.5); }
+  .add-student input, .add-student select { margin-bottom: 0; padding: 8px 10px; font-size: 13px; }
+  #gate, #panel { display: none; }
+  .legend-note { font-size: 11.5px; color: rgba(44,31,20,0.4); margin-top: 10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🇮🇹 Italian Knowledge Web — Admin</h1>
+  <div class="sub">Toggle which topics each student can see. Changes commit straight to GitHub.</div>
+
+  <div id="gate" class="card">
+    <input type="password" id="pw-input" placeholder="Password">
+    <button class="primary" onclick="tryUnlock()">Unlock</button>
+    <div id="gate-error" class="status err"></div>
+  </div>
+
+  <div id="panel">
+    <div class="warn">
+      This password only hides this page from casual visitors — the source is publicly
+      fetchable regardless, so it is not real access control. Your GitHub token lives only
+      in this browser's local storage; it is never written to the repo.
+    </div>
+
+    <div class="card">
+      <div class="toolbar">
+        <strong style="font-size:13px">GitHub token</strong>
+        <button onclick="clearToken()">Clear stored token</button>
+      </div>
+      <input type="text" id="token-input" placeholder="ghp_... or github_pat_...">
+      <label class="check"><input type="checkbox" id="remember-token"> Remember this token in this browser (localStorage)</label>
+      <button class="primary" onclick="saveToken()">Use this token</button>
+      <div id="token-status" class="status"></div>
+    </div>
+
+    <div class="card">
+      <div class="toolbar">
+        <strong style="font-size:13px">Add a new student</strong>
+      </div>
+      <div class="add-student">
+        <div>
+          <label>ID (slug, e.g. "marco")</label>
+          <input type="text" id="new-id" placeholder="marco">
+        </div>
+        <div>
+          <label>Display name</label>
+          <input type="text" id="new-name" placeholder="Marco">
+        </div>
+        <div>
+          <label>Language</label>
+          <select id="new-lang">
+            <option value="en">en</option>
+            <option value="es">es</option>
+          </select>
+        </div>
+        <button class="primary" onclick="addStudent()">Create student</button>
+      </div>
+      <div id="add-status" class="status"></div>
+    </div>
+
+    <div class="card">
+      <div class="toolbar">
+        <strong style="font-size:13px">Topics</strong>
+        <button class="primary" id="save-btn" onclick="saveChanges()" disabled>Save changes</button>
+      </div>
+      <div id="table-holder">Loading…</div>
+      <div class="legend-note">* = this student's language doesn't have this topic translated yet — checking it won't make it appear until that's added.</div>
+      <div id="save-status" class="status"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const REPO = 'laura-guerinoni/italian-knowledge-web';
+const API = 'https://api.github.com/repos/' + REPO + '/contents/';
+const PW_HASH = 'a20b305f19f28eee3a125cb50401d806185c95a6bcd238446b9348bb9f01ba8c';
+
+let token = '';
+let topicsCatalog = {};
+let categories = {};
+let students = {};      // id -> { lang, displayName, topics: Set, sha }
+let originalTopics = {}; // id -> Set (snapshot at load, to diff against)
+
+async function sha256Hex(text) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function tryUnlock() {
+  const pw = document.getElementById('pw-input').value;
+  const hash = await sha256Hex(pw);
+  if (hash === PW_HASH) {
+    sessionStorage.setItem('iw-admin-unlocked', '1');
+    document.getElementById('gate').style.display = 'none';
+    document.getElementById('panel').style.display = 'block';
+    boot();
+  } else {
+    document.getElementById('gate-error').textContent = 'Wrong password.';
+  }
+}
+
+function clearToken() {
+  localStorage.removeItem('iw-admin-token');
+  token = '';
+  document.getElementById('token-input').value = '';
+  document.getElementById('token-status').innerHTML = '<span class="ok">Stored token cleared.</span>';
+}
+
+function saveToken() {
+  token = document.getElementById('token-input').value.trim();
+  if (document.getElementById('remember-token').checked && token) {
+    localStorage.setItem('iw-admin-token', token);
+  }
+  document.getElementById('token-status').innerHTML = token
+    ? '<span class="ok">Token set for this session.</span>'
+    : '<span class="err">No token entered.</span>';
+  updateSaveButton();
+}
+
+function ghHeaders() {
+  const h = { 'Accept': 'application/vnd.github+json' };
+  if (token) h['Authorization'] = 'Bearer ' + token;
+  return h;
+}
+
+async function loadCatalog() {
+  const [t, c] = await Promise.all([
+    fetch('../data/topics.json').then(r => r.json()),
+    fetch('../data/categories.json').then(r => r.json()),
+  ]);
+  topicsCatalog = t;
+  categories = c;
+}
+
+async function loadStudents() {
+  const res = await fetch(API + 'data/students', { headers: ghHeaders() });
+  if (!res.ok) throw new Error('Could not list students (' + res.status + '). Check your token.');
+  const files = await res.json();
+  students = {};
+  originalTopics = {};
+  await Promise.all(files.filter(f => f.name.endsWith('.json')).map(async f => {
+    const id = f.name.replace(/\.json$/, '');
+    const fileRes = await fetch(API + 'data/students/' + f.name, { headers: ghHeaders() });
+    const fileMeta = await fileRes.json();
+    const content = JSON.parse(atob(fileMeta.content.replace(/\n/g, '')));
+    students[id] = { lang: content.lang, displayName: content.displayName, topics: new Set(content.topics), sha: fileMeta.sha };
+    originalTopics[id] = new Set(content.topics);
+  }));
+}
+
+function renderTable() {
+  const holder = document.getElementById('table-holder');
+  const studentIds = Object.keys(students).sort();
+  if (!studentIds.length) { holder.textContent = 'No students found.'; return; }
+
+  const byCategory = {};
+  for (const [key, t] of Object.entries(topicsCatalog)) {
+    (byCategory[t.category] = byCategory[t.category] || []).push({ key, ...t });
+  }
+
+  let html = '<table><thead><tr><th>Topic</th>';
+  for (const id of studentIds) html += `<th>${students[id].displayName}</th>`;
+  html += '</tr></thead><tbody>';
+
+  for (const cat of Object.keys(categories)) {
+    const topicsInCat = byCategory[cat];
+    if (!topicsInCat) continue;
+    html += `<tr class="cat-row"><td colspan="${studentIds.length + 1}">${cat}</td></tr>`;
+    for (const t of topicsInCat) {
+      html += `<tr><td>${t.icon} ${t.title}</td>`;
+      for (const id of studentIds) {
+        const s = students[id];
+        const hasLang = !!t[s.lang];
+        const checked = s.topics.has(t.key);
+        const cls = hasLang ? '' : 'missing-lang';
+        html += `<td class="chk"><label class="${cls}"><input type="checkbox" data-student="${id}" data-topic="${t.key}" ${checked ? 'checked' : ''} onchange="onToggle(this)"></label></td>`;
+      }
+      html += '</tr>';
+    }
+  }
+  html += '</tbody></table>';
+  holder.innerHTML = html;
+}
+
+function onToggle(el) {
+  const { student, topic } = el.dataset;
+  if (el.checked) students[student].topics.add(topic);
+  else students[student].topics.delete(topic);
+  updateSaveButton();
+}
+
+function updateSaveButton() {
+  const changed = Object.keys(students).some(id => {
+    const a = [...students[id].topics].sort().join(',');
+    const b = [...originalTopics[id]].sort().join(',');
+    return a !== b;
+  });
+  document.getElementById('save-btn').disabled = !changed || !token;
+}
+
+async function putFile(path, obj, sha, message) {
+  const body = {
+    message,
+    content: btoa(unescape(encodeURIComponent(JSON.stringify(obj, null, 2)))),
+  };
+  if (sha) body.sha = sha;
+  const res = await fetch(API + path, {
+    method: 'PUT',
+    headers: { ...ghHeaders(), 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(`${path}: ${res.status} ${err.message || res.statusText}`);
+  }
+  return res.json();
+}
+
+async function saveChanges() {
+  const statusEl = document.getElementById('save-status');
+  statusEl.innerHTML = 'Saving…';
+  const lines = [];
+  for (const id of Object.keys(students)) {
+    const a = [...students[id].topics].sort().join(',');
+    const b = [...originalTopics[id]].sort().join(',');
+    if (a === b) continue;
+    const s = students[id];
+    try {
+      const result = await putFile(
+        `data/students/${id}.json`,
+        { lang: s.lang, displayName: s.displayName, topics: [...s.topics] },
+        s.sha,
+        `Admin panel: update ${s.displayName}'s topics`
+      );
+      s.sha = result.content.sha;
+      originalTopics[id] = new Set(s.topics);
+      lines.push(`<span class="ok">✓ ${s.displayName} saved.</span>`);
+    } catch (e) {
+      lines.push(`<span class="err">✗ ${s.displayName}: ${e.message}</span>`);
+    }
+  }
+  statusEl.innerHTML = lines.join('<br>') || 'Nothing to save.';
+  updateSaveButton();
+}
+
+async function addStudent() {
+  const id = document.getElementById('new-id').value.trim().toLowerCase().replace(/[^a-z0-9-]/g, '');
+  const name = document.getElementById('new-name').value.trim();
+  const lang = document.getElementById('new-lang').value;
+  const statusEl = document.getElementById('add-status');
+  if (!id || !name) { statusEl.innerHTML = '<span class="err">ID and display name are required.</span>'; return; }
+  if (students[id]) { statusEl.innerHTML = '<span class="err">That ID already exists.</span>'; return; }
+  if (!token) { statusEl.innerHTML = '<span class="err">Set a GitHub token first.</span>'; return; }
+  statusEl.textContent = 'Creating…';
+  try {
+    await putFile(`data/students/${id}.json`, { lang, displayName: name, topics: [] }, null, `Admin panel: add student ${name}`);
+    statusEl.innerHTML = `<span class="ok">✓ ${name} created. Reloading table…</span>`;
+    document.getElementById('new-id').value = '';
+    document.getElementById('new-name').value = '';
+    await loadStudents();
+    renderTable();
+  } catch (e) {
+    statusEl.innerHTML = `<span class="err">✗ ${e.message}</span>`;
+  }
+}
+
+async function boot() {
+  const stored = localStorage.getItem('iw-admin-token');
+  if (stored) { token = stored; document.getElementById('token-input').value = stored; document.getElementById('remember-token').checked = true; }
+  await loadCatalog();
+  try {
+    await loadStudents();
+    renderTable();
+    updateSaveButton();
+  } catch (e) {
+    document.getElementById('table-holder').innerHTML = `<span class="status err">${e.message}</span>`;
+  }
+}
+
+if (sessionStorage.getItem('iw-admin-unlocked') === '1') {
+  document.getElementById('panel').style.display = 'block';
+  boot();
+} else {
+  document.getElementById('gate').style.display = 'block';
+}
+</script>
+</body>
+</html>
