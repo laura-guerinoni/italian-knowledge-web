@@ -1,0 +1,4197 @@
+{
+  "pronunciation": {
+    "icon": "🔤",
+    "title": "Pronuncia",
+    "category": "pronunciation",
+    "en": {
+      "subtitle": "Italian Pronunciation Rules",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Vowels",
+          "content": "Italian vowels are always pure: <strong>A</strong>=\"ah\", <strong>E</strong>=\"eh\", <strong>I</strong>=\"ee\", <strong>O</strong>=\"oh\", <strong>U</strong>=\"oo\". Never diphthongize!"
+        },
+        {
+          "type": "pills",
+          "title": "C & G Rules",
+          "items": [
+            "C+A/O/U = hard [k]: casa",
+            "C+E/I = soft [ch]: cena",
+            "G+A/O/U = hard [g]: gatto",
+            "G+E/I = soft [dj]: gente",
+            "CH = always hard: che",
+            "GH = always hard: ghetto",
+            "SC+E/I = [sh]: scena",
+            "GLI = [ly]: figlio",
+            "GN = [ny]: gnocchi"
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Double Consonants",
+          "content": "Double consonants are <strong>held longer</strong>: notte vs note. This changes meaning! Practice: <em>anno, bello, pizza, cappuccino</em>"
+        },
+        {
+          "type": "rule",
+          "title": "Stress",
+          "content": "Usually on the <strong>penultimate syllable</strong>: ca-SA, par-LA-re. Accent marks show exceptions: città, caffè, perché, lunedì."
+        },
+        {
+          "type": "examples",
+          "title": "Tricky Words",
+          "items": [
+            {
+              "it": "gli occhi",
+              "tr": "the eyes — [lyee OK-kee]"
+            },
+            {
+              "it": "figlio",
+              "tr": "son — [FEEL-yo]"
+            },
+            {
+              "it": "gnocchi",
+              "tr": "[NYOK-kee]"
+            },
+            {
+              "it": "scena",
+              "tr": "scene — [SHEH-na]"
+            },
+            {
+              "it": "chiesa",
+              "tr": "church — [KYEH-za]"
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Reglas de pronunciación italiana",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Vocales",
+          "content": "Las vocales italianas siempre son puras: <strong>A</strong>=\"ah\", <strong>E</strong>=\"eh\", <strong>I</strong>=\"ee\", <strong>O</strong>=\"oh\", <strong>U</strong>=\"oo\". ¡Nunca se convierten en diptongos!"
+        },
+        {
+          "type": "pills",
+          "title": "Reglas de C y G",
+          "items": [
+            "C+A/O/U = sonido fuerte [k]: casa",
+            "C+E/I = sonido suave [ch]: cena",
+            "G+A/O/U = sonido fuerte [g]: gatto",
+            "G+E/I = sonido suave [dj]: gente",
+            "CH = siempre fuerte: che",
+            "GH = siempre fuerte: ghetto",
+            "SC+E/I = [sh]: scena",
+            "GLI = [ly]: figlio",
+            "GN = [ñ]: gnocchi"
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Consonantes Dobles",
+          "content": "Las consonantes dobles se pronuncian <strong>más largas</strong>: notte vs note. ¡Esto cambia el significado! Practica: <em>anno, bello, pizza, cappuccino</em>"
+        },
+        {
+          "type": "rule",
+          "title": "Acento Tónico",
+          "content": "Normalmente cae en la <strong>penúltima sílaba</strong>: ca-SA, par-LA-re. Las tildes marcan las excepciones: città, caffè, perché, lunedì."
+        },
+        {
+          "type": "examples",
+          "title": "Palabras Difíciles",
+          "items": [
+            {
+              "it": "gli occhi",
+              "tr": "los ojos — [lyee OK-kee]"
+            },
+            {
+              "it": "figlio",
+              "tr": "hijo — [FEEL-yo]"
+            },
+            {
+              "it": "gnocchi",
+              "tr": "[NYOK-kee]"
+            },
+            {
+              "it": "scena",
+              "tr": "escena — [SHEH-na]"
+            },
+            {
+              "it": "chiesa",
+              "tr": "iglesia — [KYEH-za]"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "essere": {
+    "icon": "⚡",
+    "title": "Essere",
+    "category": "core-verbs",
+    "en": {
+      "subtitle": "To be — the most essential verb",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugation — Presente",
+          "rows": [
+            [
+              "io",
+              "sono",
+              "I am"
+            ],
+            [
+              "tu",
+              "sei",
+              "you are"
+            ],
+            [
+              "lui/lei",
+              "è",
+              "he/she is"
+            ],
+            [
+              "noi",
+              "siamo",
+              "we are"
+            ],
+            [
+              "voi",
+              "siete",
+              "you (pl.) are"
+            ],
+            [
+              "loro",
+              "sono",
+              "they are"
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Main Uses",
+          "content": "<strong>Identity:</strong> Sono italiana.<br><strong>Origin:</strong> Sei americano?<br><strong>Profession:</strong> È insegnante.<br><strong>Description:</strong> Siamo stanchi.<br><strong>Auxiliary:</strong> Sono andato. (motion verbs)"
+        },
+        {
+          "type": "examples",
+          "title": "Key Phrases",
+          "items": [
+            {
+              "it": "Come stai? — Sono bene!",
+              "tr": "How are you? — I am well!"
+            },
+            {
+              "it": "Di dove sei?",
+              "tr": "Where are you from?"
+            },
+            {
+              "it": "Sono di Milano.",
+              "tr": "I am from Milan."
+            },
+            {
+              "it": "Che ore sono? — Sono le tre.",
+              "tr": "What time is it? — It's three o'clock."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "stare",
+            "avere",
+            "greetings"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Ser/estar — el verbo más esencial",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugación — Presente",
+          "rows": [
+            [
+              "io",
+              "sono",
+              "yo soy/estoy"
+            ],
+            [
+              "tu",
+              "sei",
+              "tú eres/estás"
+            ],
+            [
+              "lui/lei",
+              "è",
+              "él/ella es/está"
+            ],
+            [
+              "noi",
+              "siamo",
+              "nosotros somos/estamos"
+            ],
+            [
+              "voi",
+              "siete",
+              "vosotros sois/estáis"
+            ],
+            [
+              "loro",
+              "sono",
+              "ellos son/están"
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Usos Principales",
+          "content": "<strong>Identidad:</strong> Sono italiana.<br><strong>Origen:</strong> Sei americano?<br><strong>Profesión:</strong> È insegnante.<br><strong>Descripción:</strong> Siamo stanchi.<br><strong>Auxiliar:</strong> Sono andato. (verbos de movimiento)"
+        },
+        {
+          "type": "examples",
+          "title": "Frases Clave",
+          "items": [
+            {
+              "it": "Come stai? — Sono bene!",
+              "tr": "¿Cómo estás? — ¡Estoy bien!"
+            },
+            {
+              "it": "Di dove sei?",
+              "tr": "¿De dónde eres?"
+            },
+            {
+              "it": "Sono di Milano.",
+              "tr": "Soy de Milán."
+            },
+            {
+              "it": "Che ore sono? — Sono le tre.",
+              "tr": "¿Qué hora es? — Son las tres."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "stare",
+            "avere",
+            "greetings"
+          ]
+        }
+      ]
+    }
+  },
+  "avere": {
+    "icon": "🤝",
+    "title": "Avere",
+    "category": "core-verbs",
+    "en": {
+      "subtitle": "To have — possession & auxiliary",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugation — Presente",
+          "rows": [
+            [
+              "io",
+              "ho",
+              "I have"
+            ],
+            [
+              "tu",
+              "hai",
+              "you have"
+            ],
+            [
+              "lui/lei",
+              "ha",
+              "he/she has"
+            ],
+            [
+              "noi",
+              "abbiamo",
+              "we have"
+            ],
+            [
+              "voi",
+              "avete",
+              "you (pl.) have"
+            ],
+            [
+              "loro",
+              "hanno",
+              "they have"
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Main Uses",
+          "content": "<strong>Possession:</strong> Ho una macchina.<br><strong>Age:</strong> Ho trent'anni.<br><strong>Physical states:</strong> Ho fame/sete/freddo/caldo/sonno/paura<br><strong>Auxiliary:</strong> Ho mangiato. (transitive verbs)"
+        },
+        {
+          "type": "examples",
+          "title": "Avere Expressions",
+          "items": [
+            {
+              "it": "Ho fame.",
+              "tr": "I am hungry. (lit: I have hunger)"
+            },
+            {
+              "it": "Ho sete.",
+              "tr": "I am thirsty."
+            },
+            {
+              "it": "Quanti anni hai?",
+              "tr": "How old are you?"
+            },
+            {
+              "it": "Ho ventidue anni.",
+              "tr": "I am 22 years old."
+            },
+            {
+              "it": "Ha ragione!",
+              "tr": "He/She is right!"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "essere",
+            "numbers",
+            "emotions"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Tener — posesión y auxiliar",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugación — Presente",
+          "rows": [
+            [
+              "io",
+              "ho",
+              "yo tengo"
+            ],
+            [
+              "tu",
+              "hai",
+              "tú tienes"
+            ],
+            [
+              "lui/lei",
+              "ha",
+              "él/ella tiene"
+            ],
+            [
+              "noi",
+              "abbiamo",
+              "nosotros tenemos"
+            ],
+            [
+              "voi",
+              "avete",
+              "vosotros tenéis"
+            ],
+            [
+              "loro",
+              "hanno",
+              "ellos tienen"
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Usos Principales",
+          "content": "<strong>Posesión:</strong> Ho una macchina.<br><strong>Edad:</strong> Ho trent'anni.<br><strong>Estados físicos:</strong> Ho fame/sete/freddo/caldo/sonno/paura<br><strong>Auxiliar:</strong> Ho mangiato. (verbos transitivos)"
+        },
+        {
+          "type": "examples",
+          "title": "Expresiones con Avere",
+          "items": [
+            {
+              "it": "Ho fame.",
+              "tr": "Tengo hambre. (lit: tengo hambre)"
+            },
+            {
+              "it": "Ho sete.",
+              "tr": "Tengo sed."
+            },
+            {
+              "it": "Quanti anni hai?",
+              "tr": "¿Cuántos años tienes?"
+            },
+            {
+              "it": "Ho ventidue anni.",
+              "tr": "Tengo 22 años."
+            },
+            {
+              "it": "Ha ragione!",
+              "tr": "¡Tiene razón!"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "essere",
+            "numbers",
+            "emotions"
+          ]
+        }
+      ]
+    }
+  },
+  "stare": {
+    "icon": "🧘",
+    "title": "Stare",
+    "category": "core-verbs",
+    "en": {
+      "subtitle": "To stay / to be (states & progressive)",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugation — Presente",
+          "rows": [
+            [
+              "io",
+              "sto",
+              ""
+            ],
+            [
+              "tu",
+              "stai",
+              ""
+            ],
+            [
+              "lui/lei",
+              "sta",
+              ""
+            ],
+            [
+              "noi",
+              "stiamo",
+              ""
+            ],
+            [
+              "voi",
+              "state",
+              ""
+            ],
+            [
+              "loro",
+              "stanno",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Uses vs Essere",
+          "content": "<strong>Health:</strong> Come stai? Sto bene!<br><strong>Location (temp):</strong> Sto a casa.<br><strong>Progressive:</strong> Sto + gerundio → Sto mangiando.<br><strong>Imperative:</strong> Stai attento!"
+        },
+        {
+          "type": "examples",
+          "title": "Stare + Gerundio",
+          "items": [
+            {
+              "it": "Sto studiando l'italiano.",
+              "tr": "I am studying Italian."
+            },
+            {
+              "it": "Sta dormendo.",
+              "tr": "He/She is sleeping."
+            },
+            {
+              "it": "Stiamo mangiando.",
+              "tr": "We are eating."
+            },
+            {
+              "it": "Stai scherzando?",
+              "tr": "Are you joking?"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "essere",
+            "gerundio"
+          ]
+        }
+      ]
+    }
+  },
+  "fare": {
+    "icon": "🔨",
+    "title": "Fare",
+    "category": "core-verbs",
+    "en": {
+      "subtitle": "To do / to make — super versatile",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugation — Presente",
+          "rows": [
+            [
+              "io",
+              "faccio",
+              ""
+            ],
+            [
+              "tu",
+              "fai",
+              ""
+            ],
+            [
+              "lui/lei",
+              "fa",
+              ""
+            ],
+            [
+              "noi",
+              "facciamo",
+              ""
+            ],
+            [
+              "voi",
+              "fate",
+              ""
+            ],
+            [
+              "loro",
+              "fanno",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Fare + Activity",
+          "items": [
+            "fare colazione — have breakfast",
+            "fare la doccia — shower",
+            "fare sport — do sports",
+            "fare una passeggiata — take a walk",
+            "fare la spesa — grocery shopping",
+            "fare benzina — get gas",
+            "fare silenzio — be quiet",
+            "fare le valigie — pack bags",
+            "fare una domanda — ask a question"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Cosa fai di solito la mattina?",
+              "tr": "What do you usually do in the morning?"
+            },
+            {
+              "it": "Faccio colazione alle sette.",
+              "tr": "I have breakfast at seven."
+            },
+            {
+              "it": "Fa bel tempo oggi!",
+              "tr": "The weather is nice today!"
+            },
+            {
+              "it": "Facciamo una pausa.",
+              "tr": "Let's take a break."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "routine",
+            "sports"
+          ]
+        }
+      ]
+    }
+  },
+  "andare": {
+    "icon": "🚶",
+    "title": "Andare",
+    "category": "core-verbs",
+    "en": {
+      "subtitle": "To go — movement & destination",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugation — Presente",
+          "rows": [
+            [
+              "io",
+              "vado",
+              ""
+            ],
+            [
+              "tu",
+              "vai",
+              ""
+            ],
+            [
+              "lui/lei",
+              "va",
+              ""
+            ],
+            [
+              "noi",
+              "andiamo",
+              ""
+            ],
+            [
+              "voi",
+              "andate",
+              ""
+            ],
+            [
+              "loro",
+              "vanno",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Andare + Prepositions",
+          "content": "<strong>A + city:</strong> Vado a Roma.<br><strong>In + country:</strong> Andiamo in Italia.<br><strong>Al/Alla + place:</strong> Vado al mercato / alla palestra.<br><strong>A + infinitive:</strong> Vado a mangiare."
+        },
+        {
+          "type": "examples",
+          "title": "Destinations",
+          "items": [
+            {
+              "it": "Dove vai?",
+              "tr": "Where are you going?"
+            },
+            {
+              "it": "Vado in ufficio.",
+              "tr": "I'm going to the office."
+            },
+            {
+              "it": "Andiamo al cinema stasera?",
+              "tr": "Shall we go to the cinema tonight?"
+            },
+            {
+              "it": "Va a lavorare in macchina.",
+              "tr": "He goes to work by car."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "andare-prep",
+            "prep-articolate",
+            "places",
+            "uscire"
+          ]
+        }
+      ]
+    }
+  },
+  "uscire": {
+    "icon": "🚪",
+    "title": "Uscire",
+    "category": "core-verbs",
+    "en": {
+      "subtitle": "To go out — irregular -ire verb",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugation — Presente",
+          "rows": [
+            [
+              "io",
+              "esco",
+              "I go out"
+            ],
+            [
+              "tu",
+              "esci",
+              "you go out"
+            ],
+            [
+              "lui/lei",
+              "esce",
+              "he/she goes out"
+            ],
+            [
+              "noi",
+              "usciamo",
+              "we go out"
+            ],
+            [
+              "voi",
+              "uscite",
+              "you (pl.) go out"
+            ],
+            [
+              "loro",
+              "escono",
+              "they go out"
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Pattern",
+          "content": "Irregular in io/tu/lui/loro — stem changes to <strong>esc-</strong>. Noi/voi keep regular -ire.<br><br><strong>Uscire con:</strong> go out with<br><strong>Uscire di casa:</strong> leave the house<br><strong>Uscire dal lavoro:</strong> leave work"
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "A che ora esci stasera?",
+              "tr": "What time are you going out tonight?"
+            },
+            {
+              "it": "Esco dal lavoro alle sei.",
+              "tr": "I leave work at six."
+            },
+            {
+              "it": "Usciamo con gli amici.",
+              "tr": "We're going out with friends."
+            },
+            {
+              "it": "Non esco mai di lunedì.",
+              "tr": "I never go out on Mondays."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "andare"
+          ]
+        }
+      ]
+    }
+  },
+  "volere": {
+    "icon": "💝",
+    "title": "Volere",
+    "category": "modal-verbs",
+    "en": {
+      "subtitle": "To want — modal verb",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugation — Presente",
+          "rows": [
+            [
+              "io",
+              "voglio",
+              "I want"
+            ],
+            [
+              "tu",
+              "vuoi",
+              "you want"
+            ],
+            [
+              "lui/lei",
+              "vuole",
+              "he/she wants"
+            ],
+            [
+              "noi",
+              "vogliamo",
+              "we want"
+            ],
+            [
+              "voi",
+              "volete",
+              "you (pl.) want"
+            ],
+            [
+              "loro",
+              "vogliono",
+              "they want"
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Usage",
+          "content": "<strong>+ noun:</strong> Voglio un caffè.<br><strong>+ infinitive:</strong> Voglio mangiare.<br><strong>Polite (conditional):</strong> Vorrei un tavolo per due."
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Vuoi venire con me?",
+              "tr": "Do you want to come with me?"
+            },
+            {
+              "it": "Voglio imparare l'italiano.",
+              "tr": "I want to learn Italian."
+            },
+            {
+              "it": "Vogliono andare in vacanza.",
+              "tr": "They want to go on vacation."
+            },
+            {
+              "it": "Vorrei prenotare un tavolo.",
+              "tr": "I would like to book a table."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related Modals",
+          "items": [
+            "potere",
+            "dovere",
+            "sapere"
+          ]
+        }
+      ]
+    }
+  },
+  "potere": {
+    "icon": "💪",
+    "title": "Potere",
+    "category": "modal-verbs",
+    "en": {
+      "subtitle": "Can / to be able to — modal verb",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugation — Presente",
+          "rows": [
+            [
+              "io",
+              "posso",
+              "I can"
+            ],
+            [
+              "tu",
+              "puoi",
+              "you can"
+            ],
+            [
+              "lui/lei",
+              "può",
+              "he/she can"
+            ],
+            [
+              "noi",
+              "possiamo",
+              "we can"
+            ],
+            [
+              "voi",
+              "potete",
+              "you (pl.) can"
+            ],
+            [
+              "loro",
+              "possono",
+              "they can"
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Ability vs Permission",
+          "content": "<strong>Physical ability:</strong> Posso correre 5 km.<br><strong>Permission:</strong> Posso entrare?<br><strong>Possibility:</strong> Può essere vero.<br>Always followed by <strong>infinitive</strong>."
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Puoi aiutarmi?",
+              "tr": "Can you help me?"
+            },
+            {
+              "it": "Non posso venire stasera.",
+              "tr": "I can't come tonight."
+            },
+            {
+              "it": "Possiamo parlare in italiano?",
+              "tr": "Can we speak in Italian?"
+            },
+            {
+              "it": "Può ripetere, per favore?",
+              "tr": "Can you repeat, please?"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related Modals",
+          "items": [
+            "volere",
+            "dovere",
+            "sapere"
+          ]
+        }
+      ]
+    }
+  },
+  "dovere": {
+    "icon": "📋",
+    "title": "Dovere",
+    "category": "modal-verbs",
+    "en": {
+      "subtitle": "Must / to have to — modal verb",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugation — Presente",
+          "rows": [
+            [
+              "io",
+              "devo",
+              "I must"
+            ],
+            [
+              "tu",
+              "devi",
+              "you must"
+            ],
+            [
+              "lui/lei",
+              "deve",
+              "he/she must"
+            ],
+            [
+              "noi",
+              "dobbiamo",
+              "we must"
+            ],
+            [
+              "voi",
+              "dovete",
+              "you (pl.) must"
+            ],
+            [
+              "loro",
+              "devono",
+              "they must"
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Obligation & Necessity",
+          "content": "<strong>Obligation:</strong> Devo lavorare domani.<br><strong>Moral:</strong> Dobbiamo rispettare le regole.<br><strong>Probability:</strong> Deve essere tardi."
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Devo studiare stasera.",
+              "tr": "I have to study tonight."
+            },
+            {
+              "it": "Devi mangiare di più.",
+              "tr": "You need to eat more."
+            },
+            {
+              "it": "Dobbiamo partire presto.",
+              "tr": "We must leave early."
+            },
+            {
+              "it": "Non deve fumare qui.",
+              "tr": "You must not smoke here."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related Modals",
+          "items": [
+            "volere",
+            "potere",
+            "sapere"
+          ]
+        }
+      ]
+    }
+  },
+  "sapere": {
+    "icon": "🧠",
+    "title": "Sapere",
+    "category": "modal-verbs",
+    "en": {
+      "subtitle": "To know (facts/how to) — modal verb",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugation — Presente",
+          "rows": [
+            [
+              "io",
+              "so",
+              "I know"
+            ],
+            [
+              "tu",
+              "sai",
+              "you know"
+            ],
+            [
+              "lui/lei",
+              "sa",
+              "he/she knows"
+            ],
+            [
+              "noi",
+              "sappiamo",
+              "we know"
+            ],
+            [
+              "voi",
+              "sapete",
+              "you (pl.) know"
+            ],
+            [
+              "loro",
+              "sanno",
+              "they know"
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Sapere vs Conoscere",
+          "content": "<strong>Sapere</strong> = know facts / how to do something<br><strong>Conoscere</strong> = know/be acquainted with people/places<br><br>Sapere + infinitive: So guidare. (I know how to drive.)<br>Sapere + che: So che sei stanco."
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Sai parlare italiano?",
+              "tr": "Do you know how to speak Italian?"
+            },
+            {
+              "it": "Non so dove abita.",
+              "tr": "I don't know where he lives."
+            },
+            {
+              "it": "Sa suonare la chitarra.",
+              "tr": "She knows how to play guitar."
+            },
+            {
+              "it": "Sappiamo cucinare bene.",
+              "tr": "We know how to cook well."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related Modals",
+          "items": [
+            "volere",
+            "potere",
+            "dovere"
+          ]
+        }
+      ]
+    }
+  },
+  "are-verbs": {
+    "icon": "🔵",
+    "title": "Verbi in -ARE",
+    "category": "regular-verbs",
+    "en": {
+      "subtitle": "First conjugation — most common group",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Pattern",
+          "content": "Remove <strong>-are</strong> → add: <strong>-o, -i, -a, -iamo, -ate, -ano</strong><br><br>parlare → parl- → parlo, parli, parla, parliamo, parlate, parlano"
+        },
+        {
+          "type": "pills",
+          "title": "Key -ARE Verbs",
+          "items": [
+            "parlare — speak",
+            "lavorare — work",
+            "abitare — live",
+            "mangiare — eat",
+            "studiare — study",
+            "guardare — watch",
+            "ascoltare — listen",
+            "comprare — buy",
+            "portare — bring/wear",
+            "trovare — find",
+            "pensare — think",
+            "chiamare — call",
+            "tornare — return",
+            "incontrare — meet",
+            "camminare — walk",
+            "amare — love",
+            "arrivare — arrive",
+            "aspettare — wait",
+            "ballare — dance",
+            "cambiare — change",
+            "cantare — sing",
+            "cercare — look for",
+            "cominciare — begin",
+            "costare — cost",
+            "imparare — learn",
+            "insegnare — teach",
+            "pagare — pay",
+            "prenotare — book/reserve",
+            "telefonare — phone",
+            "viaggiare — travel",
+            "visitare — visit"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Sentences",
+          "items": [
+            {
+              "it": "Parlo italiano ogni giorno.",
+              "tr": "I speak Italian every day."
+            },
+            {
+              "it": "Dove lavori?",
+              "tr": "Where do you work?"
+            },
+            {
+              "it": "Abitiamo a Milano.",
+              "tr": "We live in Milan."
+            },
+            {
+              "it": "Mangio a mezzogiorno.",
+              "tr": "I eat at noon."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "are-reflexive",
+            "ere-verbs",
+            "ire-verbs"
+          ]
+        }
+      ]
+    }
+  },
+  "are-reflexive": {
+    "icon": "🔄",
+    "title": "Verbi Riflessivi",
+    "category": "regular-verbs",
+    "en": {
+      "subtitle": "-ARE reflexive verbs — daily routine",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "How Reflexives Work",
+          "content": "Subject acts on itself. Use reflexive pronouns: <strong>mi, ti, si, ci, vi, si</strong><br><br>mi sveglio (I wake myself up)<br>ti chiami (you call yourself = your name is)<br>si alza (he/she gets up)"
+        },
+        {
+          "type": "table",
+          "title": "Svegliarsi — to wake up",
+          "rows": [
+            [
+              "io",
+              "mi sveglio",
+              ""
+            ],
+            [
+              "tu",
+              "ti svegli",
+              ""
+            ],
+            [
+              "lui/lei",
+              "si sveglia",
+              ""
+            ],
+            [
+              "noi",
+              "ci svegliamo",
+              ""
+            ],
+            [
+              "voi",
+              "vi svegliate",
+              ""
+            ],
+            [
+              "loro",
+              "si svegliano",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Daily Routine Reflexives",
+          "items": [
+            "svegliarsi — wake up",
+            "alzarsi — get up",
+            "lavarsi — wash",
+            "farsi la doccia — shower",
+            "vestirsi — get dressed",
+            "pettinarsi — comb hair",
+            "truccarsi — put on makeup",
+            "radersi — shave",
+            "addormentarsi — fall asleep",
+            "riposarsi — rest",
+            "divertirsi — enjoy oneself",
+            "chiamarsi — be named"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Mi sveglio alle sette.",
+              "tr": "I wake up at seven."
+            },
+            {
+              "it": "Mi chiamo Nick.",
+              "tr": "My name is Nick."
+            },
+            {
+              "it": "Si alza e fa la doccia.",
+              "tr": "He gets up and showers."
+            },
+            {
+              "it": "Come ti chiami?",
+              "tr": "What is your name?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ere-verbs": {
+    "icon": "🟢",
+    "title": "Verbi in -ERE",
+    "category": "regular-verbs",
+    "en": {
+      "subtitle": "Second conjugation",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Pattern",
+          "content": "Remove <strong>-ere</strong> → add: <strong>-o, -i, -e, -iamo, -ete, -ono</strong><br><br>scrivere → scriv- → scrivo, scrivi, scrive, scriviamo, scrivete, scrivono"
+        },
+        {
+          "type": "pills",
+          "title": "Key -ERE Verbs",
+          "items": [
+            "leggere — read",
+            "scrivere — write",
+            "prendere — take",
+            "vedere — see",
+            "vivere — live",
+            "credere — believe",
+            "rispondere — answer",
+            "chiedere — ask",
+            "mettere — put",
+            "correre — run",
+            "ridere — laugh",
+            "perdere — lose",
+            "chiudere — close",
+            "ripetere — repeat",
+            "vendere — sell",
+            "ricevere — receive"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Leggo il giornale ogni mattina.",
+              "tr": "I read the newspaper every morning."
+            },
+            {
+              "it": "Prende un caffè?",
+              "tr": "Will you have a coffee?"
+            },
+            {
+              "it": "Vedo Marco domani.",
+              "tr": "I'm seeing Marco tomorrow."
+            },
+            {
+              "it": "Scriviamo in italiano.",
+              "tr": "We write in Italian."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "are-verbs",
+            "ire-verbs"
+          ]
+        }
+      ]
+    }
+  },
+  "ire-verbs": {
+    "icon": "🟡",
+    "title": "Verbi in -IRE (tipo 1)",
+    "category": "regular-verbs",
+    "en": {
+      "subtitle": "Third conjugation — type 1",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Pattern",
+          "content": "Remove <strong>-ire</strong> → add: <strong>-o, -i, -e, -iamo, -ite, -ono</strong><br><br>dormire → dorm- → dormo, dormi, dorme, dormiamo, dormite, dormono"
+        },
+        {
+          "type": "pills",
+          "title": "Type 1 -IRE Verbs",
+          "items": [
+            "dormire — sleep",
+            "partire — leave",
+            "sentire — feel/hear",
+            "aprire — open",
+            "coprire — cover",
+            "servire — serve",
+            "seguire — follow",
+            "soffrire — suffer"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Dormo otto ore ogni notte.",
+              "tr": "I sleep eight hours every night."
+            },
+            {
+              "it": "Il treno parte alle nove.",
+              "tr": "The train leaves at nine."
+            },
+            {
+              "it": "Sento un rumore strano.",
+              "tr": "I hear a strange noise."
+            },
+            {
+              "it": "Apri la finestra, per favore.",
+              "tr": "Open the window, please."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "isc-verbs",
+            "are-verbs",
+            "ere-verbs"
+          ]
+        }
+      ]
+    }
+  },
+  "isc-verbs": {
+    "icon": "🟠",
+    "title": "Verbi -ISC- (tipo 2)",
+    "category": "regular-verbs",
+    "en": {
+      "subtitle": "-ire verbs with -isc- infix",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "The -ISC- Pattern",
+          "content": "Insert <strong>-isc-</strong> between stem and ending for io/tu/lui/loro:<br><br>capire → cap-<strong>isc</strong>-o, cap-<strong>isc</strong>-i, cap-<strong>isc</strong>-e, cap-iamo, cap-ite, cap-<strong>isc</strong>-ono<br><br>Noi and voi do NOT take -isc-!"
+        },
+        {
+          "type": "table",
+          "title": "Capire — to understand",
+          "rows": [
+            [
+              "io",
+              "capisco",
+              "I understand"
+            ],
+            [
+              "tu",
+              "capisci",
+              "you understand"
+            ],
+            [
+              "lui/lei",
+              "capisce",
+              "he/she understands"
+            ],
+            [
+              "noi",
+              "capiamo",
+              "we understand"
+            ],
+            [
+              "voi",
+              "capite",
+              "you (pl.) understand"
+            ],
+            [
+              "loro",
+              "capiscono",
+              "they understand"
+            ]
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "-ISC- Verbs",
+          "items": [
+            "capire — understand",
+            "finire — finish",
+            "preferire — prefer",
+            "spedire — send",
+            "costruire — build",
+            "guarire — heal",
+            "pulire — clean",
+            "unire — unite",
+            "obbedire — obey"
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "ire-verbs",
+            "preferire"
+          ]
+        }
+      ]
+    }
+  },
+  "gerundio": {
+    "icon": "⏳",
+    "title": "Gerundio",
+    "category": "tenses",
+    "en": {
+      "subtitle": "The -ing form — ongoing actions",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Formation",
+          "content": "<strong>-ARE → -ANDO:</strong> parlare → parlando<br><strong>-ERE → -ENDO:</strong> leggere → leggendo<br><strong>-IRE → -ENDO:</strong> dormire → dormendo<br><br>Irregulars: fare → facendo, bere → bevendo, dire → dicendo"
+        },
+        {
+          "type": "pills",
+          "title": "Examples",
+          "items": [
+            "parlare → parlando",
+            "mangiare → mangiando",
+            "leggere → leggendo",
+            "scrivere → scrivendo",
+            "dormire → dormendo",
+            "fare → facendo",
+            "bere → bevendo",
+            "dire → dicendo"
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Stare + Gerundio = Present Progressive",
+          "content": "Sto mangiando. (I am eating.)<br>Sta lavorando. (He/She is working.)<br>Stiamo studiando. (We are studying.)<br>Cosa stai facendo? (What are you doing?)"
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Sto studiando l'italiano.",
+              "tr": "I am studying Italian."
+            },
+            {
+              "it": "Cosa stai facendo?",
+              "tr": "What are you doing?"
+            },
+            {
+              "it": "Stanno dormendo.",
+              "tr": "They are sleeping."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "stare"
+          ]
+        }
+      ]
+    }
+  },
+  "passato-prossimo": {
+    "icon": "🕰️",
+    "title": "Passato Prossimo",
+    "category": "tenses",
+    "en": {
+      "subtitle": "Compound past — essere/avere + participio passato",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Formazione",
+          "content": "<strong>Passato prossimo</strong> = presente di <strong>essere</strong> o <strong>avere</strong> + <strong>participio passato</strong>.<br><br>La maggior parte dei verbi usa <strong>avere</strong>. I verbi di movimento, trasformazione e i verbi riflessivi usano <strong>essere</strong>."
+        },
+        {
+          "type": "rule",
+          "title": "Participio Passato Regolare",
+          "content": "<strong>-ARE → -ATO:</strong> arrivare → arrivato<br><strong>-ERE → -UTO:</strong> vendere → venduto<br><strong>-IRE → -ITO:</strong> partire → partito"
+        },
+        {
+          "type": "table",
+          "title": "Parlare (avere)",
+          "rows": [
+            [
+              "io",
+              "ho parlato",
+              ""
+            ],
+            [
+              "tu",
+              "hai parlato",
+              ""
+            ],
+            [
+              "lui/lei",
+              "ha parlato",
+              ""
+            ],
+            [
+              "noi",
+              "abbiamo parlato",
+              ""
+            ],
+            [
+              "voi",
+              "avete parlato",
+              ""
+            ],
+            [
+              "loro",
+              "hanno parlato",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Andare (essere)",
+          "rows": [
+            [
+              "io",
+              "sono andato/a",
+              ""
+            ],
+            [
+              "tu",
+              "sei andato/a",
+              ""
+            ],
+            [
+              "lui/lei",
+              "è andato/a",
+              ""
+            ],
+            [
+              "noi",
+              "siamo andati/e",
+              ""
+            ],
+            [
+              "voi",
+              "siete andati/e",
+              ""
+            ],
+            [
+              "loro",
+              "sono andati/e",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Vestirsi (riflessivo)",
+          "rows": [
+            [
+              "io",
+              "mi sono vestito/a",
+              ""
+            ],
+            [
+              "tu",
+              "ti sei vestito/a",
+              ""
+            ],
+            [
+              "lui/lei",
+              "si è vestito/a",
+              ""
+            ],
+            [
+              "noi",
+              "ci siamo vestiti/e",
+              ""
+            ],
+            [
+              "voi",
+              "vi siete vestiti/e",
+              ""
+            ],
+            [
+              "loro",
+              "si sono vestiti/e",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Accordo del participio passato",
+          "content": "<strong>Con avere:</strong> il participio normalmente finisce in <strong>-o</strong> (invariabile): Non ho mai conosciuto un'emozione così forte.<br><br><strong>Con essere:</strong> il participio ha quattro terminazioni (<strong>-o, -a, -i, -e</strong>) e si accorda con il <strong>soggetto</strong>, al singolare o al plurale, al maschile o al femminile: La mamma è partita dalla Libia. Più di 300 migranti somali sono arrivati nel porto di Pozzallo."
+        },
+        {
+          "type": "rule",
+          "title": "Attenzione — pronomi lo/la/l'/li/le",
+          "content": "Con <strong>avere</strong>, quando ci sono i pronomi diretti <strong>lo, la, l', li, le</strong>, l'accordo del participio passato è <strong>obbligatorio</strong>:<br><em>Le ha assistite il medico di bordo.</em>"
+        },
+        {
+          "type": "pills",
+          "title": "Participi Passati Irregolari",
+          "items": [
+            "accendere — acceso",
+            "aprire — aperto",
+            "bere — bevuto",
+            "chiedere — chiesto",
+            "chiudere — chiuso",
+            "correggere — corretto",
+            "decidere — deciso",
+            "dire — detto",
+            "essere — stato",
+            "fare — fatto",
+            "leggere — letto",
+            "mettere — messo",
+            "offrire — offerto",
+            "perdere — perso (perduto)",
+            "piacere — piaciuto",
+            "prendere — preso",
+            "rimanere — rimasto",
+            "risolvere — risolto",
+            "rispondere — risposto",
+            "scegliere — scelto",
+            "scrivere — scritto",
+            "togliere — tolto",
+            "tradurre — tradotto",
+            "vedere — visto (veduto)",
+            "venire — venuto"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Esempi",
+          "items": [
+            {
+              "it": "Ho corretto il documento ieri.",
+              "tr": "I corrected the document yesterday."
+            },
+            {
+              "it": "Sono stato a Roma per lavoro.",
+              "tr": "I was in Rome for work."
+            },
+            {
+              "it": "Ho offerto la posizione di ingegnere a Mario.",
+              "tr": "I offered Mario the engineer position."
+            },
+            {
+              "it": "Ho perso il treno.",
+              "tr": "I missed the train."
+            },
+            {
+              "it": "Mi è piaciuta la presentazione.",
+              "tr": "I liked the presentation. (fem. subject)"
+            },
+            {
+              "it": "Mi è piaciuto il libro.",
+              "tr": "I liked the book. (masc. subject)"
+            },
+            {
+              "it": "Ho vissuto un anno in India.",
+              "tr": "I lived in India for a year."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "essere",
+            "avere",
+            "are-verbs",
+            "ere-verbs",
+            "ire-verbs",
+            "are-reflexive",
+            "andare",
+            "piacere"
+          ]
+        }
+      ]
+    }
+  },
+  "piacere": {
+    "icon": "❤️",
+    "title": "Piacere",
+    "category": "liking",
+    "en": {
+      "subtitle": "To like — reversed subject/object!",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "The Big Difference!",
+          "content": "Italian \"liking\" works backwards from English:<br><br><strong>English:</strong> I like pizza. (I = subject)<br><strong>Italian:</strong> Mi piace la pizza. (pizza = subject)<br><br>Literally: \"Pizza is pleasing to me.\"<br><br><strong>Piace</strong> = singular thing or infinitive<br><strong>Piacciono</strong> = plural things"
+        },
+        {
+          "type": "table",
+          "title": "Indirect Pronouns",
+          "rows": [
+            [
+              "mi piace/piacciono",
+              "I like"
+            ],
+            [
+              "ti piace/piacciono",
+              "you like"
+            ],
+            [
+              "gli/le piace/piacciono",
+              "he/she likes"
+            ],
+            [
+              "ci piace/piacciono",
+              "we like"
+            ],
+            [
+              "vi piace/piacciono",
+              "you (pl.) like"
+            ],
+            [
+              "gli piace/piacciono",
+              "they like"
+            ]
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Mi piace il calcio.",
+              "tr": "I like football."
+            },
+            {
+              "it": "Ti piacciono i gatti?",
+              "tr": "Do you like cats?"
+            },
+            {
+              "it": "Gli piace lavorare qui.",
+              "tr": "He likes working here."
+            },
+            {
+              "it": "Non mi piace alzarmi presto.",
+              "tr": "I don't like getting up early."
+            },
+            {
+              "it": "Le piacciono le scarpe.",
+              "tr": "She likes the shoes."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "preferire",
+            "sports"
+          ]
+        }
+      ]
+    }
+  },
+  "preferire": {
+    "icon": "⭐",
+    "title": "Preferire",
+    "category": "liking",
+    "en": {
+      "subtitle": "To prefer — -isc- verb + liking cluster",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugation",
+          "rows": [
+            [
+              "io",
+              "preferisco",
+              "I prefer"
+            ],
+            [
+              "tu",
+              "preferisci",
+              "you prefer"
+            ],
+            [
+              "lui/lei",
+              "preferisce",
+              "he/she prefers"
+            ],
+            [
+              "noi",
+              "preferiamo",
+              "we prefer"
+            ],
+            [
+              "voi",
+              "preferite",
+              "you (pl.) prefer"
+            ],
+            [
+              "loro",
+              "preferiscono",
+              "they prefer"
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Usage",
+          "content": "<strong>+ noun:</strong> Preferisco il tè.<br><strong>+ infinitive:</strong> Preferisco dormire.<br><strong>X a Y:</strong> Preferisco il caffè al tè."
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Preferisci il mare o la montagna?",
+              "tr": "Do you prefer the sea or the mountains?"
+            },
+            {
+              "it": "Preferisco lavorare da casa.",
+              "tr": "I prefer to work from home."
+            },
+            {
+              "it": "Preferisce la pizza alla pasta.",
+              "tr": "He prefers pizza to pasta."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "piacere",
+            "isc-verbs"
+          ]
+        }
+      ]
+    }
+  },
+  "articles-indef": {
+    "icon": "🔹",
+    "title": "Articoli Indeterminativi",
+    "category": "articles",
+    "en": {
+      "subtitle": "A / An — indefinite articles",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "The 4 Forms",
+          "content": "<strong>UN</strong> — masc. before consonant: un libro, un amico<br><strong>UNO</strong> — masc. before s+cons, z, ps, gn: uno studente<br><strong>UNA</strong> — fem. before consonant: una casa<br><strong>UN'</strong> — fem. before vowel: un'amica, un'ora"
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Ho un cane e una gatta.",
+              "tr": "I have a dog and a cat."
+            },
+            {
+              "it": "Sono uno studente di italiano.",
+              "tr": "I am an Italian student."
+            },
+            {
+              "it": "Cerco un appartamento.",
+              "tr": "I'm looking for an apartment."
+            },
+            {
+              "it": "Ho un'idea!",
+              "tr": "I have an idea!"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "articles-def",
+            "gender-number"
+          ]
+        }
+      ]
+    }
+  },
+  "articles-def": {
+    "icon": "🔷",
+    "title": "Articoli Determinativi",
+    "category": "articles",
+    "en": {
+      "subtitle": "The — 7 forms!",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "The 7 Forms",
+          "content": "<strong>IL</strong> — masc. sing., consonant: il libro<br><strong>LO</strong> — masc. sing., s+cons/z/gn: lo studente<br><strong>L'</strong> — masc/fem sing., vowel: l'amico, l'amica<br><strong>LA</strong> — fem. sing., consonant: la casa<br><strong>I</strong> — masc. plural, consonant: i libri<br><strong>GLI</strong> — masc. plural, vowel/s+cons/z: gli amici<br><strong>LE</strong> — fem. plural (all): le case"
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Il cane di Marco è grande.",
+              "tr": "Marco's dog is big."
+            },
+            {
+              "it": "Lo zaino è pesante.",
+              "tr": "The backpack is heavy."
+            },
+            {
+              "it": "Gli studenti studiano.",
+              "tr": "The students study."
+            },
+            {
+              "it": "Le ragazze ballano.",
+              "tr": "The girls are dancing."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "articles-indef",
+            "prep-articolate",
+            "possessives",
+            "gender-number"
+          ]
+        }
+      ]
+    }
+  },
+  "gender-number": {
+    "icon": "⚖️",
+    "title": "Genere e Numero",
+    "category": "articles",
+    "en": {
+      "subtitle": "Gender & plurals — nouns change!",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Gender Rules",
+          "content": "<strong>Masculine:</strong> usually end in -O: libro, ragazzo<br><strong>Feminine:</strong> usually end in -A: casa, ragazza<br><strong>Both -E:</strong> can be either! Check the article.<br>&nbsp;&nbsp;masc: il padre, il cane<br>&nbsp;&nbsp;fem: la madre, la notte"
+        },
+        {
+          "type": "rule",
+          "title": "Plural Formation",
+          "content": "<strong>-O → -I:</strong> libro → libri<br><strong>-A → -E:</strong> casa → case<br><strong>-E → -I:</strong> padre → padri<br><strong>-CA/-GA → -CHE/-GHE:</strong> amica → amiche<br><strong>-CO/-GO → -CHI/-GHI:</strong> amico → amici"
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "un libro → due libri",
+              "tr": "one book → two books"
+            },
+            {
+              "it": "una casa → tre case",
+              "tr": "one house → three houses"
+            },
+            {
+              "it": "il dottore → i dottori",
+              "tr": "the doctor → the doctors"
+            },
+            {
+              "it": "l'amica → le amiche",
+              "tr": "the friend → the friends (f.)"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "articles-indef",
+            "articles-def",
+            "adj-agreement"
+          ]
+        }
+      ]
+    }
+  },
+  "adj-agreement": {
+    "icon": "🎨",
+    "title": "Accordo Aggettivi",
+    "category": "adjectives",
+    "en": {
+      "subtitle": "Adjectives agree in gender & number",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "4-Form Adjectives (-O)",
+          "content": "<strong>masc. sing.:</strong> un ragazzo alto<br><strong>fem. sing.:</strong> una ragazza alta<br><strong>masc. plur.:</strong> ragazzi alti<br><strong>fem. plur.:</strong> ragazze alte"
+        },
+        {
+          "type": "rule",
+          "title": "2-Form Adjectives (-E)",
+          "content": "Only change for number:<br><strong>sing.:</strong> un libro interessante / una storia interessante<br><strong>plur.:</strong> libri interessanti / storie interessanti<br><br>Also: grande, elegante, felice, triste, giovane, verde, forte"
+        },
+        {
+          "type": "pills",
+          "title": "Common Adjectives",
+          "items": [
+            "alto/a — tall",
+            "basso/a — short",
+            "bello/a — beautiful",
+            "brutto/a — ugly",
+            "grande — big",
+            "piccolo/a — small",
+            "grasso/a — fat",
+            "magro/a — thin",
+            "vecchio/a — old",
+            "giovane — young",
+            "simpatico/a — nice",
+            "antipatico/a — unpleasant",
+            "stanco/a — tired",
+            "felice — happy",
+            "triste — sad",
+            "bravo/a — good/well done",
+            "caro/a — expensive/dear",
+            "corto/a — short (length)",
+            "difficile — difficult",
+            "doppio/a — double",
+            "facile — easy",
+            "gentile — kind",
+            "importante — important",
+            "intelligente — intelligent",
+            "interessante — interesting",
+            "largo/a — wide/broad",
+            "lungo/a — long",
+            "nuovo/a — new",
+            "ricco/a — rich",
+            "singolo/a — single",
+            "sporco/a — dirty",
+            "straniero/a — foreign",
+            "stretto/a — narrow/tight",
+            "vero/a — true/real"
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "colors",
+            "adj-suffixes",
+            "possessives",
+            "gender-number"
+          ]
+        }
+      ]
+    }
+  },
+  "colors": {
+    "icon": "🌈",
+    "title": "Colori",
+    "category": "adjectives",
+    "en": {
+      "subtitle": "Colors — some are invariable!",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Basic Colors",
+          "items": [
+            "rosso/a — red",
+            "blu — blue (inv.)",
+            "verde — green (inv.)",
+            "giallo/a — yellow",
+            "arancione — orange (inv.)",
+            "viola — purple (inv.)",
+            "rosa — pink (inv.)",
+            "bianco/a — white",
+            "nero/a — black",
+            "grigio/a — grey",
+            "marrone — brown (inv.)",
+            "azzurro/a — light blue",
+            "beige — beige (inv.)"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Hair Colors",
+          "items": [
+            "biondo/a — blonde",
+            "castano/a — brown (hair)",
+            "nero/a — black (hair)",
+            "rosso/a — red (hair)",
+            "grigio/a — grey (hair)"
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Invariable Colors",
+          "content": "Colors ending in -E or borrowed words stay the same: <em>blu, verde, arancione, viola, rosa, marrone</em>. They do NOT change for gender or number!"
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Ho una macchina rossa.",
+              "tr": "I have a red car."
+            },
+            {
+              "it": "Porta una camicia blu.",
+              "tr": "He's wearing a blue shirt."
+            },
+            {
+              "it": "Gli occhi verdi.",
+              "tr": "Green eyes."
+            },
+            {
+              "it": "Una borsa nera.",
+              "tr": "A black bag."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "adj-agreement",
+            "clothing"
+          ]
+        }
+      ]
+    }
+  },
+  "adj-suffixes": {
+    "icon": "🔬",
+    "title": "Suffissi Aggettivi",
+    "category": "adjectives",
+    "en": {
+      "subtitle": "-ale, -oso, -ico patterns",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "-ALE = relating to",
+          "content": "cultura → <strong>culturale</strong><br>nazione → <strong>nazionale</strong><br>professione → <strong>professionale</strong><br>mente → <strong>mentale</strong>"
+        },
+        {
+          "type": "rule",
+          "title": "-OSO = full of",
+          "content": "vento → <strong>ventoso</strong> (windy)<br>fama → <strong>famoso</strong> (famous)<br>avventura → <strong>avventuroso</strong> (adventurous)"
+        },
+        {
+          "type": "rule",
+          "title": "-ICO = scientific/systematic",
+          "content": "economia → <strong>economico</strong> (economic/cheap)<br>pratica → <strong>pratico</strong> (practical)<br>fantasia → <strong>fantastico</strong> (fantastic)"
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "adj-agreement"
+          ]
+        }
+      ]
+    }
+  },
+  "possessives": {
+    "icon": "👐",
+    "title": "Possessivi",
+    "category": "adjectives",
+    "en": {
+      "subtitle": "Possessive adjectives — agree with the noun!",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Key Rule: Article Required!",
+          "content": "Italian possessives require a definite article before them:<br><strong>il mio libro, la sua casa</strong><br><br>EXCEPTION — singular family members: NO article!<br>✓ mio padre (NOT il mio padre)<br>✓ tua sorella<br>But plural: <em>i miei fratelli</em><br><br>* <strong>loro</strong> always keeps the article, even with singular family members:<br>✓ il loro padre &nbsp;✓ la loro sorella"
+        },
+        {
+          "type": "table",
+          "title": "Possessive Table (masc/fem)",
+          "rows": [
+            [
+              "io",
+              "il mio / la mia",
+              "my"
+            ],
+            [
+              "tu",
+              "il tuo / la tua",
+              "your"
+            ],
+            [
+              "lui/lei",
+              "il suo / la sua",
+              "his/her"
+            ],
+            [
+              "noi",
+              "il nostro / la nostra",
+              "our"
+            ],
+            [
+              "voi",
+              "il vostro / la vostra",
+              "your (pl.)"
+            ],
+            [
+              "loro",
+              "il loro / la loro",
+              "their"
+            ]
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Dov'è il tuo passaporto?",
+              "tr": "Where is your passport?"
+            },
+            {
+              "it": "La nostra azienda è a Milano.",
+              "tr": "Our company is in Milan."
+            },
+            {
+              "it": "Mia sorella vive a Roma.",
+              "tr": "My sister lives in Rome."
+            },
+            {
+              "it": "I suoi colleghi sono simpatici.",
+              "tr": "His/Her colleagues are nice."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "articles-def",
+            "adj-agreement",
+            "family"
+          ]
+        }
+      ]
+    }
+  },
+  "andare-prep": {
+    "icon": "📍",
+    "title": "Andare + Preposizioni",
+    "category": "prepositions",
+    "en": {
+      "subtitle": "Destination prepositions",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Destination Rules",
+          "content": "<strong>A + city:</strong> Vado a Roma / a Londra<br><strong>IN + country (fem.):</strong> Vado in Italia / in Francia<br><strong>IN + region:</strong> Vado in Toscana / in Sicilia<br><strong>NEL/NEGLI + masc. country:</strong> Vado negli Stati Uniti<br><strong>AL/ALLA + place:</strong> Vado al supermercato / alla palestra"
+        },
+        {
+          "type": "pills",
+          "title": "Common Destinations",
+          "items": [
+            "in ufficio — to the office",
+            "a casa — home",
+            "in palestra — to the gym",
+            "al bar — to the café",
+            "in centro — city centre",
+            "al cinema — cinema",
+            "in banca — bank",
+            "al supermercato — supermarket",
+            "in vacanza — on holiday",
+            "in farmacia — pharmacy",
+            "al ristorante — restaurant",
+            "a scuola — school"
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "andare",
+            "prep-articolate",
+            "places"
+          ]
+        }
+      ]
+    }
+  },
+  "prep-articolate": {
+    "icon": "🔗",
+    "title": "Preposizioni Articolate",
+    "category": "prepositions",
+    "en": {
+      "subtitle": "Preposition + article = one word!",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "How They Merge",
+          "content": "When a preposition meets a definite article, they <strong>contract</strong>:<br><br><strong>A + il = AL</strong> | <strong>A + la = ALLA</strong> | <strong>A + i = AI</strong> | <strong>A + gli = AGLI</strong> | <strong>A + le = ALLE</strong><br><strong>DI + il = DEL</strong> | <strong>DI + i = DEI</strong> | <strong>DI + gli = DEGLI</strong> | <strong>DI + le = DELLE</strong><br><strong>DA + il = DAL</strong> | <strong>IN + il = NEL</strong> | <strong>SU + il = SUL</strong>"
+        },
+        {
+          "type": "table",
+          "title": "A + article (most common)",
+          "rows": [
+            [
+              "A + il",
+              "al",
+              "al bar, al cinema"
+            ],
+            [
+              "A + lo",
+              "allo",
+              "allo stadio"
+            ],
+            [
+              "A + la",
+              "alla",
+              "alla stazione"
+            ],
+            [
+              "A + l'",
+              "all'",
+              "all'aeroporto"
+            ],
+            [
+              "A + i",
+              "ai",
+              "ai giardini"
+            ],
+            [
+              "A + gli",
+              "agli",
+              "agli amici"
+            ],
+            [
+              "A + le",
+              "alle",
+              "alle otto"
+            ]
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Vado al mercato.",
+              "tr": "I'm going to the market."
+            },
+            {
+              "it": "La borsa della signora.",
+              "tr": "The woman's bag."
+            },
+            {
+              "it": "Il libro degli studenti.",
+              "tr": "The students' book."
+            },
+            {
+              "it": "Sono nel parco.",
+              "tr": "I'm in the park."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "andare-prep",
+            "articles-def",
+            "simple-prep"
+          ]
+        }
+      ]
+    }
+  },
+  "simple-prep": {
+    "icon": "➡️",
+    "title": "Preposizioni Semplici",
+    "category": "prepositions",
+    "en": {
+      "subtitle": "DI, A, DA, IN, CON, SU, PER, TRA/FRA",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Core Prepositions",
+          "items": [
+            "DI — of, from, about",
+            "A — to, at, in (city)",
+            "DA — from, by, since, at (someone's place)",
+            "IN — in, to (country/region)",
+            "CON — with",
+            "SU — on, about",
+            "PER — for, through, in order to",
+            "TRA/FRA — between, among, in (time)"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Direction & Position Words",
+          "items": [
+            "destra — right",
+            "sinistra — left",
+            "davanti — in front of",
+            "dietro — behind",
+            "dentro — inside",
+            "fuori — outside",
+            "sopra — above/on top",
+            "sotto — under/below",
+            "vicino — near/nearby",
+            "lontano — far",
+            "indietro — backwards",
+            "avanti — forward"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Un caffè di Napoli.",
+              "tr": "A Neapolitan coffee."
+            },
+            {
+              "it": "Vengo da Roma.",
+              "tr": "I come from Rome."
+            },
+            {
+              "it": "Sono da Mario.",
+              "tr": "I'm at Mario's place."
+            },
+            {
+              "it": "Il libro è sul tavolo.",
+              "tr": "The book is on the table."
+            },
+            {
+              "it": "Parto tra due giorni.",
+              "tr": "I'm leaving in two days."
+            },
+            {
+              "it": "Studio per l'esame.",
+              "tr": "I'm studying for the exam."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "prep-articolate",
+            "andare-prep"
+          ]
+        }
+      ]
+    }
+  },
+  "interrogatives": {
+    "icon": "❓",
+    "title": "Interrogativi",
+    "category": "questions",
+    "en": {
+      "subtitle": "Question words — ask anything!",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Question Words",
+          "items": [
+            "CHI — who",
+            "CHE COSA / COSA — what",
+            "DOVE — where",
+            "QUANDO — when",
+            "COME — how",
+            "QUANTO/A — how much",
+            "QUANTI/E — how many",
+            "PERCHÉ — why",
+            "QUALE/QUALI — which"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Common Questions",
+          "items": [
+            {
+              "it": "Chi sei?",
+              "tr": "Who are you?"
+            },
+            {
+              "it": "Cosa fai?",
+              "tr": "What do you do?"
+            },
+            {
+              "it": "Dove abiti?",
+              "tr": "Where do you live?"
+            },
+            {
+              "it": "Quando arrivi?",
+              "tr": "When do you arrive?"
+            },
+            {
+              "it": "Come ti chiami?",
+              "tr": "What's your name?"
+            },
+            {
+              "it": "Quanto costa?",
+              "tr": "How much does it cost?"
+            },
+            {
+              "it": "Perché studi italiano?",
+              "tr": "Why do you study Italian?"
+            },
+            {
+              "it": "Quale preferisci?",
+              "tr": "Which do you prefer?"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "time-questions",
+            "greetings"
+          ]
+        }
+      ]
+    }
+  },
+  "time-questions": {
+    "icon": "🕐",
+    "title": "Le Ore",
+    "category": "questions",
+    "en": {
+      "subtitle": "Telling the time",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Asking & Telling Time",
+          "content": "<strong>Che ore sono?</strong> = What time is it?<br><strong>Sono le + number</strong> for 2:00+<br><strong>È l'una</strong> = 1:00 (singular!)<br><strong>È mezzogiorno</strong> = noon<br><strong>È mezzanotte</strong> = midnight"
+        },
+        {
+          "type": "pills",
+          "title": "Time Expressions",
+          "items": [
+            "e un quarto — quarter past",
+            "e mezza — half past",
+            "meno un quarto — quarter to",
+            "in punto — exactly",
+            "di mattina — morning",
+            "di pomeriggio — afternoon",
+            "di sera — evening",
+            "di notte — night"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Sono le otto e mezza.",
+              "tr": "It's 8:30."
+            },
+            {
+              "it": "Sono le tre e un quarto.",
+              "tr": "It's 3:15."
+            },
+            {
+              "it": "Sono le cinque meno un quarto.",
+              "tr": "It's 4:45."
+            },
+            {
+              "it": "Alle nove in punto.",
+              "tr": "At nine o'clock sharp."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "interrogatives",
+            "numbers",
+            "time-vocab"
+          ]
+        }
+      ]
+    }
+  },
+  "numbers": {
+    "icon": "🔢",
+    "title": "Numeri",
+    "category": "questions",
+    "en": {
+      "subtitle": "Numbers 0–1000+",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "1–20",
+          "items": [
+            "uno",
+            "due",
+            "tre",
+            "quattro",
+            "cinque",
+            "sei",
+            "sette",
+            "otto",
+            "nove",
+            "dieci",
+            "undici",
+            "dodici",
+            "tredici",
+            "quattordici",
+            "quindici",
+            "sedici",
+            "diciassette",
+            "diciotto",
+            "diciannove",
+            "venti"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Tens & Beyond",
+          "items": [
+            "venti — 20",
+            "trenta — 30",
+            "quaranta — 40",
+            "cinquanta — 50",
+            "sessanta — 60",
+            "settanta — 70",
+            "ottanta — 80",
+            "novanta — 90",
+            "cento — 100",
+            "mille — 1000"
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Compound Numbers",
+          "content": "Drop the vowel before -uno and -otto:<br>21 = vent<strong>uno</strong> (NOT ventiuno)<br>28 = vent<strong>otto</strong> (NOT ventiotto)<br>31 = trent<strong>uno</strong>, 38 = trent<strong>otto</strong>"
+        },
+        {
+          "type": "examples",
+          "title": "Uses",
+          "items": [
+            {
+              "it": "Ho ventisei anni.",
+              "tr": "I am 26 years old."
+            },
+            {
+              "it": "Costa cinquanta euro.",
+              "tr": "It costs 50 euros."
+            },
+            {
+              "it": "Abito al terzo piano.",
+              "tr": "I live on the third floor."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "avere",
+            "time-questions"
+          ]
+        }
+      ]
+    }
+  },
+  "greetings": {
+    "icon": "👋",
+    "title": "Saluti",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Greetings & social expressions",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Formal Greetings",
+          "items": [
+            "Buongiorno — Good morning/afternoon",
+            "Buonasera — Good evening",
+            "Buonanotte — Good night",
+            "Salve — Hello (neutral)",
+            "Come sta? — How are you? (formal)",
+            "Piacere — Nice to meet you",
+            "Arrivederci — Goodbye (formal)",
+            "Signore/Signora — Sir/Madam"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Informal Greetings",
+          "items": [
+            "Ciao — Hi/Bye",
+            "Come stai? — How are you?",
+            "Come va? — How's it going?",
+            "Tutto bene? — All good?",
+            "Ci vediamo! — See you!",
+            "A presto! — See you soon!",
+            "A dopo! — See you later!",
+            "Dai! — Come on!"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Polite Expressions",
+          "items": [
+            "Grazie — Thank you",
+            "Prego — You're welcome / Please",
+            "Scusa/Scusi — Sorry / Excuse me",
+            "Per favore — Please",
+            "Buon compleanno! — Happy birthday!",
+            "Tanti auguri! — Best wishes!",
+            "Salute! / Cin cin! — Cheers!",
+            "Buon Natale! — Merry Christmas!",
+            "Buona Pasqua! — Happy Easter!",
+            "Bravo/a! — Well done!"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Responses to Come stai?",
+          "items": [
+            {
+              "it": "Bene, grazie! E tu?",
+              "tr": "Well, thanks! And you?"
+            },
+            {
+              "it": "Così così.",
+              "tr": "So-so."
+            },
+            {
+              "it": "Non c'è male!",
+              "tr": "Not bad!"
+            },
+            {
+              "it": "Benissimo!",
+              "tr": "Very well!"
+            },
+            {
+              "it": "Piacere mio!",
+              "tr": "The pleasure is mine!"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "essere",
+            "interrogatives"
+          ]
+        }
+      ]
+    }
+  },
+  "time-vocab": {
+    "icon": "📅",
+    "title": "Tempo & Giorni",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Days, months, time expressions",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Giorni della Settimana",
+          "items": [
+            "lunedì — Monday",
+            "martedì — Tuesday",
+            "mercoledì — Wednesday",
+            "giovedì — Thursday",
+            "venerdì — Friday",
+            "sabato — Saturday",
+            "domenica — Sunday"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Mesi dell'Anno",
+          "items": [
+            "gennaio",
+            "febbraio",
+            "marzo",
+            "aprile",
+            "maggio",
+            "giugno",
+            "luglio",
+            "agosto",
+            "settembre",
+            "ottobre",
+            "novembre",
+            "dicembre"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Time Adverbs",
+          "items": [
+            "oggi — today",
+            "ieri — yesterday",
+            "domani — tomorrow",
+            "adesso/ora — now",
+            "presto — early/soon",
+            "tardi — late",
+            "sempre — always",
+            "mai — never",
+            "spesso — often",
+            "di solito — usually",
+            "a volte — sometimes",
+            "raramente — rarely"
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "time-questions",
+            "routine"
+          ]
+        }
+      ]
+    }
+  },
+  "routine": {
+    "icon": "⏰",
+    "title": "La Routine",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Daily routine vocabulary & phrases",
+      "sections": [
+        {
+          "type": "examples",
+          "title": "Routine di Luca (esempio)",
+          "items": [
+            {
+              "it": "Mi sveglio alle 7:00.",
+              "tr": "I wake up at 7:00."
+            },
+            {
+              "it": "Faccio la doccia.",
+              "tr": "I have a shower."
+            },
+            {
+              "it": "Faccio colazione: caffè e cornetto.",
+              "tr": "I have breakfast: coffee and croissant."
+            },
+            {
+              "it": "Vado in ufficio alle 8:30.",
+              "tr": "I go to the office at 8:30."
+            },
+            {
+              "it": "Lavoro fino alle 18:00.",
+              "tr": "I work until 6pm."
+            },
+            {
+              "it": "Torno a casa e cucino.",
+              "tr": "I come home and cook."
+            },
+            {
+              "it": "Mi addormento verso le 23:00.",
+              "tr": "I fall asleep around 11pm."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "are-reflexive",
+            "time-vocab",
+            "fare"
+          ]
+        }
+      ]
+    }
+  },
+  "clothing": {
+    "icon": "👕",
+    "title": "Abbigliamento",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Clothing & accessories",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Clothes",
+          "items": [
+            "la maglietta — t-shirt",
+            "la camicia — shirt",
+            "i pantaloni — trousers",
+            "i jeans — jeans",
+            "la gonna — skirt",
+            "il vestito — dress/suit",
+            "la giacca — jacket",
+            "il cappotto — coat",
+            "il maglione — sweater",
+            "le scarpe — shoes",
+            "le scarpe da ginnastica — trainers",
+            "gli stivali — boots",
+            "i calzini — socks",
+            "la borsa — bag",
+            "la cintura — belt",
+            "il cappello — hat",
+            "la sciarpa — scarf",
+            "i guanti — gloves",
+            "gli occhiali — glasses",
+            "lo zaino — backpack",
+            "il pantalone corto — shorts",
+            "la calza — stocking/sock"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Describing Outfits",
+          "items": [
+            {
+              "it": "Porta una camicia blu e pantaloni neri.",
+              "tr": "He's wearing a blue shirt and black trousers."
+            },
+            {
+              "it": "Mi piacciono le scarpe rosse.",
+              "tr": "I like the red shoes."
+            },
+            {
+              "it": "Ho una borsa di pelle.",
+              "tr": "I have a leather bag."
+            },
+            {
+              "it": "Metto il cappotto perché fa freddo.",
+              "tr": "I'm putting on the coat because it's cold."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "colors",
+            "adj-agreement"
+          ]
+        }
+      ]
+    }
+  },
+  "family": {
+    "icon": "👨‍👩‍👧",
+    "title": "La Famiglia",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Family members vocabulary",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Family Members",
+          "items": [
+            "il padre/papà — father/dad",
+            "la madre/mamma — mother/mum",
+            "il figlio — son",
+            "la figlia — daughter",
+            "il fratello — brother",
+            "la sorella — sister",
+            "il nonno — grandfather",
+            "la nonna — grandmother",
+            "lo zio — uncle",
+            "la zia — aunt",
+            "il cugino/a — cousin",
+            "il marito — husband",
+            "la moglie — wife",
+            "il fidanzato/a — boyfriend/girlfriend",
+            "i genitori — parents",
+            "i nonni — grandparents",
+            "il bambino/a — child/baby",
+            "l'uomo — man",
+            "la donna — woman",
+            "il ragazzo/a — boy/girl",
+            "il compagno/a — partner/classmate"
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Possessives + Singular Family",
+          "content": "NO article before possessive with singular family!<br>✓ mio padre (NOT il mio padre)<br>✓ tua sorella<br><br>Exceptions — need article:<br>• loro: il loro padre<br>• with adjective: il mio caro padre<br>• Plural always: i miei fratelli"
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "possessives"
+          ]
+        }
+      ]
+    }
+  },
+  "places": {
+    "icon": "🏙️",
+    "title": "I Luoghi",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Places in the city",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "In Città",
+          "items": [
+            "il bar — café",
+            "il ristorante — restaurant",
+            "il supermercato — supermarket",
+            "la farmacia — pharmacy",
+            "la banca — bank",
+            "l'ufficio — office",
+            "la scuola — school",
+            "l'università — university",
+            "il museo — museum",
+            "il teatro — theatre",
+            "il cinema — cinema",
+            "la chiesa — church",
+            "il parco — park",
+            "la piazza — square",
+            "la stazione — station",
+            "l'aeroporto — airport",
+            "l'ospedale — hospital",
+            "il mercato — market",
+            "la palestra — gym",
+            "la biblioteca — library",
+            "il negozio — shop/store",
+            "la posta — post office",
+            "il parcheggio — car park",
+            "il consolato — consulate",
+            "l'ambasciata — embassy",
+            "la pizzeria — pizzeria",
+            "la fermata — bus/tram stop"
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "andare-prep",
+            "prep-articolate"
+          ]
+        }
+      ]
+    }
+  },
+  "emotions": {
+    "icon": "😊",
+    "title": "Emozioni & Stati",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Feelings & physical states",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Emotional States (essere)",
+          "items": [
+            "felice/contento — happy",
+            "triste — sad",
+            "arrabbiato/a — angry",
+            "stanco/a — tired",
+            "nervoso/a — nervous",
+            "ansioso/a — anxious",
+            "emozionato/a — excited",
+            "sorpreso/a — surprised",
+            "deluso/a — disappointed",
+            "annoiato/a — bored",
+            "innamorato/a — in love",
+            "geloso/a — jealous"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Physical States (avere)",
+          "items": [
+            "ho fame — hungry",
+            "ho sete — thirsty",
+            "ho caldo — hot",
+            "ho freddo — cold",
+            "ho sonno — sleepy",
+            "ho paura — afraid",
+            "ho fretta — in a hurry",
+            "ho mal di testa — headache",
+            "ho mal di stomaco — stomachache"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Health",
+          "items": [
+            "malato/a — sick/ill",
+            "stanco/a — tired",
+            "bene — well",
+            "male — badly/not well",
+            "la salute — health",
+            "il dottore/ssa — doctor",
+            "la medicina — medicine",
+            "la farmacia — pharmacy"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Sono stanco dopo il lavoro.",
+              "tr": "I'm tired after work."
+            },
+            {
+              "it": "Mi sento felice oggi!",
+              "tr": "I feel happy today!"
+            },
+            {
+              "it": "Ho paura dei ragni.",
+              "tr": "I'm afraid of spiders."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "avere",
+            "essere",
+            "adj-agreement"
+          ]
+        }
+      ]
+    }
+  },
+  "food": {
+    "icon": "🍕",
+    "title": "Cibo & Bevande",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Food, drinks & restaurant",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Pasti (Meals)",
+          "items": [
+            "la colazione — breakfast",
+            "il pranzo — lunch",
+            "la cena — dinner",
+            "lo spuntino — snack",
+            "l'aperitivo — aperitif"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Cibo",
+          "items": [
+            "la pizza",
+            "la pasta",
+            "gli spaghetti",
+            "il riso — rice",
+            "il pane — bread",
+            "la carne — meat",
+            "il pesce — fish",
+            "la verdura — vegetables",
+            "la frutta — fruit",
+            "il formaggio — cheese",
+            "il prosciutto — ham",
+            "le uova — eggs",
+            "il pomodoro — tomato",
+            "l'olio — oil",
+            "il sale — salt",
+            "il pepe — pepper",
+            "lo zucchero — sugar",
+            "l'aceto — vinegar",
+            "il latte — milk"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Al Tavolo",
+          "items": [
+            "il piatto — plate/dish",
+            "il bicchiere — glass",
+            "la forchetta — fork",
+            "il coltello — knife",
+            "il cucchiaio — spoon",
+            "la bottiglia — bottle",
+            "il menù — menu",
+            "il conto — bill"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Al Bar / Ristorante",
+          "items": [
+            "un caffè — espresso",
+            "un cappuccino",
+            "un cornetto — croissant",
+            "l'acqua naturale/frizzante — still/sparkling water",
+            "il vino rosso/bianco — wine",
+            "la birra — beer",
+            "il succo di frutta — juice",
+            "il tè — tea"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Ordering",
+          "items": [
+            {
+              "it": "Vorrei un caffè, per favore.",
+              "tr": "I would like a coffee, please."
+            },
+            {
+              "it": "Cosa consiglia?",
+              "tr": "What do you recommend?"
+            },
+            {
+              "it": "Il conto, per favore.",
+              "tr": "The bill, please."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "sports": {
+    "icon": "⚽",
+    "title": "Sport & Attività",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Sports and leisure activities",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Sport",
+          "items": [
+            "il calcio — football",
+            "il tennis",
+            "il nuoto — swimming",
+            "la corsa — running",
+            "il ciclismo — cycling",
+            "la pallavolo — volleyball",
+            "il basket — basketball",
+            "lo sci — skiing",
+            "la palestra — gym",
+            "lo yoga",
+            "il golf",
+            "la danza — dance"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Leisure & Hobbies",
+          "items": [
+            "ballare — to dance",
+            "cantare — to sing",
+            "suonare — to play (instrument)",
+            "fotografare — to photograph",
+            "leggere — to read",
+            "guardare la tv — watch tv",
+            "ascoltare musica — listen to music",
+            "cucinare — to cook",
+            "disegnare — to draw",
+            "viaggiare — to travel",
+            "l'hobby — hobby",
+            "la fotografia — photography",
+            "la musica — music"
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Giocare vs Fare",
+          "content": "<strong>Giocare a + sport</strong> (team/competitive):<br>Gioco a calcio. Gioco a tennis.<br><br><strong>Fare + sport</strong> (individual/activity):<br>Faccio nuoto. Faccio yoga. Faccio jogging."
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Gioco a tennis due volte a settimana.",
+              "tr": "I play tennis twice a week."
+            },
+            {
+              "it": "Mi piace fare sport.",
+              "tr": "I like doing sport."
+            },
+            {
+              "it": "Fa nuoto la mattina.",
+              "tr": "He swims in the morning."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "fare",
+            "piacere"
+          ]
+        }
+      ]
+    }
+  },
+  "altri-irregolari": {
+    "icon": "⚙️",
+    "title": "Altri Irregolari *",
+    "category": "core-verbs",
+    "en": {
+      "subtitle": "Venire, dare, dire, bere — key irregular verbs",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Venire — to come",
+          "rows": [
+            [
+              "io",
+              "vengo",
+              "I come"
+            ],
+            [
+              "tu",
+              "vieni",
+              "you come"
+            ],
+            [
+              "lui/lei",
+              "viene",
+              "he/she comes"
+            ],
+            [
+              "noi",
+              "veniamo",
+              "we come"
+            ],
+            [
+              "voi",
+              "venite",
+              "you (pl.) come"
+            ],
+            [
+              "loro",
+              "vengono",
+              "they come"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Dare — to give",
+          "rows": [
+            [
+              "io",
+              "do",
+              "I give"
+            ],
+            [
+              "tu",
+              "dai",
+              "you give"
+            ],
+            [
+              "lui/lei",
+              "dà",
+              "he/she gives"
+            ],
+            [
+              "noi",
+              "diamo",
+              "we give"
+            ],
+            [
+              "voi",
+              "date",
+              "you (pl.) give"
+            ],
+            [
+              "loro",
+              "danno",
+              "they give"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Dire — to say/tell",
+          "rows": [
+            [
+              "io",
+              "dico",
+              "I say"
+            ],
+            [
+              "tu",
+              "dici",
+              "you say"
+            ],
+            [
+              "lui/lei",
+              "dice",
+              "he/she says"
+            ],
+            [
+              "noi",
+              "diciamo",
+              "we say"
+            ],
+            [
+              "voi",
+              "dite",
+              "you (pl.) say"
+            ],
+            [
+              "loro",
+              "dicono",
+              "they say"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Bere — to drink",
+          "rows": [
+            [
+              "io",
+              "bevo",
+              "I drink"
+            ],
+            [
+              "tu",
+              "bevi",
+              "you drink"
+            ],
+            [
+              "lui/lei",
+              "beve",
+              "he/she drinks"
+            ],
+            [
+              "noi",
+              "beviamo",
+              "we drink"
+            ],
+            [
+              "voi",
+              "bevete",
+              "you (pl.) drink"
+            ],
+            [
+              "loro",
+              "bevono",
+              "they drink"
+            ]
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Vengo con te domani.",
+              "tr": "I'm coming with you tomorrow."
+            },
+            {
+              "it": "Ti do il mio numero.",
+              "tr": "I'll give you my number."
+            },
+            {
+              "it": "Cosa dici?",
+              "tr": "What are you saying?"
+            },
+            {
+              "it": "Bevo un bicchiere d'acqua.",
+              "tr": "I drink a glass of water."
+            },
+            {
+              "it": "Vengono alla festa stasera?",
+              "tr": "Are they coming to the party tonight?"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "essere",
+            "avere",
+            "fare",
+            "andare"
+          ]
+        }
+      ]
+    }
+  },
+  "casa": {
+    "icon": "🏠",
+    "title": "La Casa *",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Home, rooms & furniture",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Stanze (Rooms)",
+          "items": [
+            "il soggiorno — living room",
+            "la cucina — kitchen",
+            "la camera (da letto) — bedroom",
+            "il bagno — bathroom",
+            "lo studio — study",
+            "il corridoio — hallway",
+            "il garage — garage",
+            "il giardino — garden",
+            "il balcone — balcony",
+            "il terrazzo — terrace"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Mobili & Oggetti (Furniture)",
+          "items": [
+            "il letto — bed",
+            "il tavolo — table",
+            "la sedia — chair",
+            "il divano — sofa",
+            "l'armadio — wardrobe",
+            "la scrivania — desk",
+            "la finestra — window",
+            "la porta — door",
+            "la scala — stairs",
+            "il piano — floor/storey",
+            "la lampada — lamp",
+            "lo specchio — mirror"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Tipi di Casa",
+          "items": [
+            "l'appartamento — apartment",
+            "la casa — house/home",
+            "il palazzo — building",
+            "la villa — villa",
+            "la camera — room (in hotel)",
+            "singola/doppia — single/double (room)"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "La mia camera è al secondo piano.",
+              "tr": "My room is on the second floor."
+            },
+            {
+              "it": "Il bagno è al primo piano.",
+              "tr": "The bathroom is on the first floor."
+            },
+            {
+              "it": "Il tavolo è in cucina.",
+              "tr": "The table is in the kitchen."
+            },
+            {
+              "it": "Il letto è comodo.",
+              "tr": "The bed is comfortable."
+            },
+            {
+              "it": "Apro la finestra perché fa caldo.",
+              "tr": "I open the window because it's hot."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "places",
+            "simple-prep",
+            "prep-articolate",
+            "andare-prep"
+          ]
+        }
+      ]
+    }
+  },
+  "trasporti": {
+    "icon": "🚗",
+    "title": "Trasporti & Viaggi *",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Transport, travel & getting around",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Mezzi di Trasporto",
+          "items": [
+            "l'aereo — plane",
+            "il treno — train",
+            "l'autobus — bus",
+            "la metropolitana — metro/underground",
+            "il taxi — taxi",
+            "la macchina — car",
+            "la moto — motorbike",
+            "la bici — bicycle",
+            "il tram — tram",
+            "la nave — ship/ferry"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Viaggi (Travel)",
+          "items": [
+            "il biglietto — ticket",
+            "il passaporto — passport",
+            "la valigia — suitcase",
+            "il visto — visa",
+            "la vacanza — holiday/vacation",
+            "il viaggio — journey/trip",
+            "il check-in — check-in",
+            "la prenotazione — reservation",
+            "l'andata — outbound",
+            "il ritorno — return"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "In Viaggio",
+          "items": [
+            "partire — to leave/depart",
+            "arrivare — to arrive",
+            "viaggiare — to travel",
+            "prenotare — to book",
+            "pagare — to pay",
+            "cambiare — to change",
+            "aspettare — to wait",
+            "prendere il treno/bus — to take the train/bus"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Prendo l'autobus per andare al lavoro.",
+              "tr": "I take the bus to go to work."
+            },
+            {
+              "it": "Il treno è in ritardo.",
+              "tr": "The train is late."
+            },
+            {
+              "it": "Ho dimenticato il passaporto.",
+              "tr": "I forgot my passport."
+            },
+            {
+              "it": "Compro un biglietto del treno.",
+              "tr": "I buy a train ticket."
+            },
+            {
+              "it": "A luglio vado in vacanza.",
+              "tr": "In July I go on holiday."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "places",
+            "andare-prep",
+            "numbers",
+            "andare"
+          ]
+        }
+      ]
+    }
+  },
+  "meteo": {
+    "icon": "☀️",
+    "title": "Meteo & Natura *",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "Weather, seasons & the natural world",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Il Tempo (Weather)",
+          "items": [
+            "fa caldo — it's hot",
+            "fa freddo — it's cold",
+            "piove / piovere — it's raining",
+            "nevica / nevicare — it's snowing",
+            "c'è il sole — it's sunny",
+            "c'è vento — it's windy",
+            "c'è nebbia — it's foggy",
+            "è nuvoloso — it's cloudy",
+            "fa bel tempo — nice weather",
+            "fa brutto tempo — bad weather",
+            "il temporale — thunderstorm"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Le Stagioni (Seasons)",
+          "items": [
+            "la primavera — spring",
+            "l'estate — summer",
+            "l'autunno — autumn",
+            "l'inverno — winter",
+            "d'estate — in summer",
+            "d'inverno — in winter",
+            "in primavera — in spring",
+            "in autunno — in autumn"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "La Natura (Nature)",
+          "items": [
+            "il mare — sea",
+            "la montagna — mountain",
+            "la spiaggia — beach",
+            "il lago — lake",
+            "la campagna — countryside",
+            "il fiume — river",
+            "il parco — park",
+            "l'albero — tree",
+            "il fiore — flower",
+            "la pianta — plant",
+            "il giardino — garden",
+            "il sole — sun",
+            "la luna — moon",
+            "il cielo — sky"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Oggi fa molto caldo.",
+              "tr": "Today it is very hot."
+            },
+            {
+              "it": "Oggi piove.",
+              "tr": "It's raining today."
+            },
+            {
+              "it": "D'estate vado al mare.",
+              "tr": "In summer I go to the sea."
+            },
+            {
+              "it": "In autunno le foglie cadono.",
+              "tr": "In autumn the leaves fall."
+            },
+            {
+              "it": "Il sole brilla oggi.",
+              "tr": "The sun shines today."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "time-vocab",
+            "emotions",
+            "adj-agreement"
+          ]
+        }
+      ]
+    }
+  },
+  "scuola": {
+    "icon": "📚",
+    "title": "Scuola & Lavoro *",
+    "category": "vocabulary",
+    "en": {
+      "subtitle": "School, work & professional life",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "A Scuola (At School)",
+          "items": [
+            "il libro — book",
+            "il quaderno — notebook",
+            "la penna — pen",
+            "la matita — pencil",
+            "il dizionario — dictionary",
+            "la classe — class",
+            "la lezione — lesson",
+            "il corso — course",
+            "l'esercizio — exercise",
+            "la domanda — question",
+            "la risposta — answer",
+            "il compito — homework",
+            "l'esame — exam",
+            "il voto — grade"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Persone (People)",
+          "items": [
+            "l'insegnante — teacher",
+            "il professore/ssa — professor",
+            "lo studente/ssa — student",
+            "il compagno/a di classe — classmate",
+            "il direttore/ssa — director/principal"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Al Lavoro (At Work)",
+          "items": [
+            "il lavoro — work/job",
+            "l'ufficio — office",
+            "la riunione — meeting",
+            "il collega/a — colleague",
+            "l'azienda — company",
+            "il capo — boss",
+            "lo stipendio — salary",
+            "il contratto — contract",
+            "lavorare — to work",
+            "imparare — to learn",
+            "insegnare — to teach",
+            "studiare — to study"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "La lezione comincia alle nove.",
+              "tr": "The lesson starts at nine."
+            },
+            {
+              "it": "Seguo un corso di italiano.",
+              "tr": "I attend an Italian course."
+            },
+            {
+              "it": "Studio l'italiano ogni giorno.",
+              "tr": "I study Italian every day."
+            },
+            {
+              "it": "Il professore spiega la grammatica.",
+              "tr": "The teacher explains the grammar."
+            },
+            {
+              "it": "Lavoro in ufficio dalle nove alle sei.",
+              "tr": "I work in the office from nine to six."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "are-verbs",
+            "isc-verbs",
+            "places",
+            "routine"
+          ]
+        }
+      ]
+    }
+  },
+  "condizionale": {
+    "icon": "🌙",
+    "title": "Condizionale",
+    "category": "modal-verbs",
+    "en": {
+      "subtitle": "I would… — conditional of modal verbs",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "What is the Condizionale?",
+          "content": "The conditional expresses \"<strong>I would…</strong>\". All four modal verbs are <strong>irregular</strong> in this tense — the stems are completely different from the infinitive."
+        },
+        {
+          "type": "table",
+          "title": "Volere — Vorrei (I would like/want)",
+          "rows": [
+            [
+              "io",
+              "vorrei",
+              "I would like"
+            ],
+            [
+              "tu",
+              "vorresti",
+              "you would like"
+            ],
+            [
+              "lui/lei",
+              "vorrebbe",
+              "he/she would like"
+            ],
+            [
+              "noi",
+              "vorremmo",
+              "we would like"
+            ],
+            [
+              "voi",
+              "vorreste",
+              "you (pl.) would like"
+            ],
+            [
+              "loro",
+              "vorrebbero",
+              "they would like"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Potere — Potrei (I could)",
+          "rows": [
+            [
+              "io",
+              "potrei",
+              "I could"
+            ],
+            [
+              "tu",
+              "potresti",
+              "you could"
+            ],
+            [
+              "lui/lei",
+              "potrebbe",
+              "he/she could"
+            ],
+            [
+              "noi",
+              "potremmo",
+              "we could"
+            ],
+            [
+              "voi",
+              "potreste",
+              "you (pl.) could"
+            ],
+            [
+              "loro",
+              "potrebbero",
+              "they could"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Dovere — Dovrei (I should)",
+          "rows": [
+            [
+              "io",
+              "dovrei",
+              "I should"
+            ],
+            [
+              "tu",
+              "dovresti",
+              "you should"
+            ],
+            [
+              "lui/lei",
+              "dovrebbe",
+              "he/she should"
+            ],
+            [
+              "noi",
+              "dovremmo",
+              "we should"
+            ],
+            [
+              "voi",
+              "dovreste",
+              "you (pl.) should"
+            ],
+            [
+              "loro",
+              "dovrebbero",
+              "they should"
+            ]
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Sapere — Saprei (I would know)",
+          "rows": [
+            [
+              "io",
+              "saprei",
+              "I would know"
+            ],
+            [
+              "tu",
+              "sapresti",
+              "you would know"
+            ],
+            [
+              "lui/lei",
+              "saprebbe",
+              "he/she would know"
+            ],
+            [
+              "noi",
+              "sapremmo",
+              "we would know"
+            ],
+            [
+              "voi",
+              "sapreste",
+              "you (pl.) would know"
+            ],
+            [
+              "loro",
+              "saprebbero",
+              "they would know"
+            ]
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Vorrei un caffè, per favore.",
+              "tr": "I would like a coffee, please."
+            },
+            {
+              "it": "Potresti aiutarmi?",
+              "tr": "Could you help me?"
+            },
+            {
+              "it": "Dovresti studiare di più.",
+              "tr": "You should study more."
+            },
+            {
+              "it": "Saprei come farlo.",
+              "tr": "I would know how to do it."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "volere",
+            "potere",
+            "dovere",
+            "sapere"
+          ]
+        }
+      ]
+    }
+  },
+  "adj-speciali": {
+    "icon": "👆",
+    "title": "Aggettivi Speciali",
+    "category": "adjectives",
+    "en": {
+      "subtitle": "Questo, Quello, Bello — special adjectives",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Rule: Before or After?",
+          "content": "Adjectives usually come <strong>after</strong> the noun, but <strong>questo</strong> (this) and <strong>quello</strong> (that) always come <strong>before</strong>.<br><br><strong>Quello</strong> and <strong>bello</strong>, when placed before a noun, follow the same forms as the <strong>definite article</strong>."
+        },
+        {
+          "type": "rule",
+          "title": "Questo — This / These",
+          "content": "<table class=\"conj-table\"><tr><th></th><th>Singolare</th><th>Plurale</th></tr><tr><td><strong>Maschile</strong></td><td>questo</td><td>questi</td></tr><tr><td><strong>Femminile</strong></td><td>questa</td><td>queste</td></tr></table>"
+        },
+        {
+          "type": "rule",
+          "title": "Quello / Bello — Article-like Forms",
+          "content": "<table class=\"conj-table\"><tr><th>Articolo</th><th>Quello</th><th>Bello</th></tr><tr><td>il</td><td>quel</td><td>bel</td></tr><tr><td>lo</td><td>quello</td><td>bello</td></tr><tr><td>l'</td><td>quell'</td><td>bell'</td></tr><tr><td>i</td><td>quei</td><td>bei</td></tr><tr><td>gli</td><td>quegli</td><td>begli</td></tr><tr><td>la</td><td>quella</td><td>bella</td></tr><tr><td>l'</td><td>quell'</td><td>bella*</td></tr><tr><td>le</td><td>quelle</td><td>belle</td></tr></table><br>* bella does not elide before vowels for feminine."
+        },
+        {
+          "type": "examples",
+          "title": "Examples",
+          "items": [
+            {
+              "it": "Questo maglione è grande.",
+              "tr": "This sweater is big."
+            },
+            {
+              "it": "Quella gonna è bella.",
+              "tr": "That skirt is beautiful."
+            },
+            {
+              "it": "Questi vestiti sono eleganti.",
+              "tr": "These clothes are elegant."
+            },
+            {
+              "it": "Quegli stivali sono cari.",
+              "tr": "Those boots are expensive."
+            },
+            {
+              "it": "Bel tempo oggi!",
+              "tr": "Beautiful weather today!"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Related",
+          "items": [
+            "adj-agreement",
+            "articles-def",
+            "gender-number",
+            "colors"
+          ]
+        }
+      ]
+    }
+  }
+}

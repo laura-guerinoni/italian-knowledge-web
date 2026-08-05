@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Red de Conocimiento Italiano — ¡Lecciones para Alina!</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<div id="header">
+  <h1>🇮🇹 Red de Conocimiento Italiano</h1>
+</div>
+<div id="search-bar">
+  <input type="text" id="search-input" placeholder="Buscar temas…" oninput="filterNodes(this.value)">
+</div>
+<div id="legend"></div>
+<div id="hint"></div>
+<div id="panel">
+  <div id="panel-header">
+    <div id="panel-icon">📚</div>
+    <div id="panel-title">Tema</div>
+    <div id="panel-subtitle">Subtítulo</div>
+    <button id="panel-close" onclick="closePanel()">✕</button>
+  </div>
+  <div id="panel-body"></div>
+</div>
+<div id="flashcard-overlay">
+  <button id="fc-close-btn" onclick="closeDrill()">✕</button>
+  <div id="fc-topic">Tema</div>
+  <div id="fc-card" onclick="revealCard()">
+    <div id="fc-icon">📚</div>
+    <div id="fc-type-label"></div>
+    <div id="fc-front"></div>
+    <div id="fc-back" style="display:none"></div>
+    <div id="fc-tap-hint">toca para revelar</div>
+  </div>
+  <div id="fc-controls">
+    <button class="fc-btn" onclick="prevCard()">← Anterior</button>
+    <div id="fc-progress">1 / 1</div>
+    <button class="fc-btn primary" onclick="nextCard()">Siguiente →</button>
+  </div>
+</div>
+<script src="../engine.js"></script>
+<script>boot('alina');</script>
+</body>
+</html>

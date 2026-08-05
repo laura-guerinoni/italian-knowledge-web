@@ -1,0 +1,52 @@
+{
+  "en": {
+    "docTitle": "Italian Knowledge Web — Lezioni per {name}!",
+    "headerTitle": "🇮🇹 Italian Knowledge Web",
+    "searchPlaceholder": "Search topics…",
+    "hint": "Drag nodes · Scroll to zoom<br>Click to open details · <strong style=\"color:#E05C4B\">F</strong> = random drill",
+    "drillButton": "🃏 Flashcard Drill — {count} cards",
+    "prev": "← Prev",
+    "next": "Next →",
+    "tapToReveal": "tap to reveal",
+    "cardTypeTranslate": "Translate",
+    "cardTypeVocabulary": "Vocabulary",
+    "categories": {
+      "core-verbs": "Core Verbs",
+      "modal-verbs": "Modal Verbs",
+      "regular-verbs": "Regular Verbs",
+      "liking": "Liking & Preference",
+      "articles": "Articles & Nouns",
+      "adjectives": "Adjectives",
+      "prepositions": "Prepositions",
+      "questions": "Questions",
+      "vocabulary": "Vocabulary",
+      "pronunciation": "Pronunciation",
+      "tenses": "Verbal Tenses"
+    }
+  },
+  "es": {
+    "docTitle": "Red de Conocimiento Italiano — ¡Lecciones para {name}!",
+    "headerTitle": "🇮🇹 Red de Conocimiento Italiano",
+    "searchPlaceholder": "Buscar temas…",
+    "hint": "Arrastra los nodos · Desplaza para zoom<br>Clic para abrir detalles · <strong style=\"color:#E05C4B\">F</strong> = repaso aleatorio",
+    "drillButton": "🃏 Repaso con Tarjetas — {count} tarjetas",
+    "prev": "← Anterior",
+    "next": "Siguiente →",
+    "tapToReveal": "toca para revelar",
+    "cardTypeTranslate": "Traducir",
+    "cardTypeVocabulary": "Vocabulario",
+    "categories": {
+      "core-verbs": "Verbos Esenciales",
+      "modal-verbs": "Verbos Modales",
+      "regular-verbs": "Verbos Regulares",
+      "liking": "Gustos y Preferencias",
+      "articles": "Artículos y Sustantivos",
+      "adjectives": "Adjetivos",
+      "prepositions": "Preposiciones",
+      "questions": "Preguntas",
+      "vocabulary": "Vocabulario",
+      "pronunciation": "Pronunciación",
+      "tenses": "Tiempos Verbales"
+    }
+  }
+}
