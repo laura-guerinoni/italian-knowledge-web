@@ -1,7 +1,10 @@
-  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-  html, body { height: 100%; overscroll-behavior: none; }
-  body { background: #F2EBE0; font-family: 'Segoe UI', system-ui, sans-serif; overflow: hidden; color: #2C1F14; }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; touch-action: none; }
+  html, body { height: 100%; overflow: hidden; overscroll-behavior: none; touch-action: none; }
+  body { background: #F2EBE0; font-family: 'Segoe UI', system-ui, sans-serif; color: #2C1F14; }
   #canvas { display: block; position: absolute; top: 0; left: 0; touch-action: none; }
+  #search-bar input { touch-action: auto; }
+  #panel { touch-action: auto; }
+  #flashcard-overlay { touch-action: auto; }
 
   #header {
     position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
