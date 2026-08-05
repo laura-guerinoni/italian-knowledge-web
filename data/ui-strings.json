@@ -25,8 +25,8 @@
     }
   },
   "es": {
-    "docTitle": "Red de Conocimiento Italiano — ¡Lecciones para {name}!",
-    "headerTitle": "🇮🇹 Red de Conocimiento Italiano",
+    "docTitle": "Red de Conocimientos en Italiano — ¡Lecciones para {name}!",
+    "headerTitle": "🇮🇹 Red de Conocimientos en Italiano",
     "searchPlaceholder": "Buscar temas…",
     "hint": "Arrastra los nodos · Desplaza para zoom<br>Clic para abrir detalles · <strong style=\"color:#E05C4B\">F</strong> = repaso aleatorio",
     "drillButton": "🃏 Repaso con Tarjetas — {count} tarjetas",

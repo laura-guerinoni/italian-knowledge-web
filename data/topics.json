@@ -531,6 +531,82 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Estar / quedarse — estados y progresivo",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugación — Presente",
+          "rows": [
+            [
+              "io",
+              "sto",
+              ""
+            ],
+            [
+              "tu",
+              "stai",
+              ""
+            ],
+            [
+              "lui/lei",
+              "sta",
+              ""
+            ],
+            [
+              "noi",
+              "stiamo",
+              ""
+            ],
+            [
+              "voi",
+              "state",
+              ""
+            ],
+            [
+              "loro",
+              "stanno",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Usos vs Essere",
+          "content": "<strong>Salud:</strong> Come stai? Sto bene!<br><strong>Ubicación (temporal):</strong> Sto a casa.<br><strong>Progresivo:</strong> Sto + gerundio → Sto mangiando.<br><strong>Imperativo:</strong> Stai attento!"
+        },
+        {
+          "type": "examples",
+          "title": "Stare + Gerundio",
+          "items": [
+            {
+              "it": "Sto studiando l'italiano.",
+              "tr": "Estoy estudiando italiano."
+            },
+            {
+              "it": "Sta dormendo.",
+              "tr": "Él/Ella está durmiendo."
+            },
+            {
+              "it": "Stiamo mangiando.",
+              "tr": "Estamos comiendo."
+            },
+            {
+              "it": "Stai scherzando?",
+              "tr": "¿Estás bromeando?"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "essere",
+            "gerundio"
+          ]
+        }
+      ]
     }
   },
   "fare": {
@@ -622,6 +698,92 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Hacer — súper versátil",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugación — Presente",
+          "rows": [
+            [
+              "io",
+              "faccio",
+              ""
+            ],
+            [
+              "tu",
+              "fai",
+              ""
+            ],
+            [
+              "lui/lei",
+              "fa",
+              ""
+            ],
+            [
+              "noi",
+              "facciamo",
+              ""
+            ],
+            [
+              "voi",
+              "fate",
+              ""
+            ],
+            [
+              "loro",
+              "fanno",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Fare + Actividad",
+          "items": [
+            "fare colazione — desayunar",
+            "fare la doccia — ducharse",
+            "fare sport — hacer deporte",
+            "fare una passeggiata — dar un paseo",
+            "fare la spesa — hacer las compras",
+            "fare benzina — echar gasolina",
+            "fare silenzio — hacer silencio",
+            "fare le valigie — hacer las maletas",
+            "fare una domanda — hacer una pregunta"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "Cosa fai di solito la mattina?",
+              "tr": "¿Qué haces normalmente por la mañana?"
+            },
+            {
+              "it": "Faccio colazione alle sette.",
+              "tr": "Desayuno a las siete."
+            },
+            {
+              "it": "Fa bel tempo oggi!",
+              "tr": "¡Hace buen tiempo hoy!"
+            },
+            {
+              "it": "Facciamo una pausa.",
+              "tr": "Hagamos una pausa."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "routine",
+            "sports"
+          ]
+        }
+      ]
     }
   },
   "andare": {
@@ -697,6 +859,84 @@
         {
           "type": "links",
           "title": "Related",
+          "items": [
+            "andare-prep",
+            "prep-articolate",
+            "places",
+            "uscire"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Ir — movimiento y destino",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugación — Presente",
+          "rows": [
+            [
+              "io",
+              "vado",
+              ""
+            ],
+            [
+              "tu",
+              "vai",
+              ""
+            ],
+            [
+              "lui/lei",
+              "va",
+              ""
+            ],
+            [
+              "noi",
+              "andiamo",
+              ""
+            ],
+            [
+              "voi",
+              "andate",
+              ""
+            ],
+            [
+              "loro",
+              "vanno",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Andare + Preposizioni",
+          "content": "<strong>A + ciudad:</strong> Vado a Roma.<br><strong>In + país:</strong> Andiamo in Italia.<br><strong>Al/Alla + lugar:</strong> Vado al mercato / alla palestra.<br><strong>A + infinitivo:</strong> Vado a mangiare."
+        },
+        {
+          "type": "examples",
+          "title": "Destinos",
+          "items": [
+            {
+              "it": "Dove vai?",
+              "tr": "¿Adónde vas?"
+            },
+            {
+              "it": "Vado in ufficio.",
+              "tr": "Voy a la oficina."
+            },
+            {
+              "it": "Andiamo al cinema stasera?",
+              "tr": "¿Vamos al cine esta noche?"
+            },
+            {
+              "it": "Va a lavorare in macchina.",
+              "tr": "Él va a trabajar en coche."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
           "items": [
             "andare-prep",
             "prep-articolate",
@@ -1196,6 +1436,84 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Primera conjugación — el grupo más común",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Patrón",
+          "content": "Quita <strong>-are</strong> → añade: <strong>-o, -i, -a, -iamo, -ate, -ano</strong><br><br>parlare → parl- → parlo, parli, parla, parliamo, parlate, parlano"
+        },
+        {
+          "type": "pills",
+          "title": "Verbos -ARE Clave",
+          "items": [
+            "parlare — hablar",
+            "lavorare — trabajar",
+            "abitare — vivir",
+            "mangiare — comer",
+            "studiare — estudiar",
+            "guardare — mirar",
+            "ascoltare — escuchar",
+            "comprare — comprar",
+            "portare — traer/llevar puesto",
+            "trovare — encontrar",
+            "pensare — pensar",
+            "chiamare — llamar",
+            "tornare — volver",
+            "incontrare — encontrarse con",
+            "camminare — caminar",
+            "amare — amar",
+            "arrivare — llegar",
+            "aspettare — esperar",
+            "ballare — bailar",
+            "cambiare — cambiar",
+            "cantare — cantar",
+            "cercare — buscar",
+            "cominciare — empezar",
+            "costare — costar",
+            "imparare — aprender",
+            "insegnare — enseñar",
+            "pagare — pagar",
+            "prenotare — reservar",
+            "telefonare — llamar por teléfono",
+            "viaggiare — viajar",
+            "visitare — visitar"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Frases",
+          "items": [
+            {
+              "it": "Parlo italiano ogni giorno.",
+              "tr": "Hablo italiano todos los días."
+            },
+            {
+              "it": "Dove lavori?",
+              "tr": "¿Dónde trabajas?"
+            },
+            {
+              "it": "Abitiamo a Milano.",
+              "tr": "Vivimos en Milán."
+            },
+            {
+              "it": "Mangio a mezzogiorno.",
+              "tr": "Como al mediodía."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "are-reflexive",
+            "ere-verbs",
+            "ire-verbs"
+          ]
+        }
+      ]
     }
   },
   "are-reflexive": {
@@ -1287,6 +1605,92 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Verbos reflexivos en -ARE — rutina diaria",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Cómo Funcionan los Reflexivos",
+          "content": "El sujeto actúa sobre sí mismo. Usa los pronombres reflexivos: <strong>mi, ti, si, ci, vi, si</strong><br><br>mi sveglio (me despierto)<br>ti chiami (te llamas)<br>si alza (él/ella se levanta)"
+        },
+        {
+          "type": "table",
+          "title": "Svegliarsi — despertarse",
+          "rows": [
+            [
+              "io",
+              "mi sveglio",
+              ""
+            ],
+            [
+              "tu",
+              "ti svegli",
+              ""
+            ],
+            [
+              "lui/lei",
+              "si sveglia",
+              ""
+            ],
+            [
+              "noi",
+              "ci svegliamo",
+              ""
+            ],
+            [
+              "voi",
+              "vi svegliate",
+              ""
+            ],
+            [
+              "loro",
+              "si svegliano",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Reflexivos de la Rutina Diaria",
+          "items": [
+            "svegliarsi — despertarse",
+            "alzarsi — levantarse",
+            "lavarsi — lavarse",
+            "farsi la doccia — ducharse",
+            "vestirsi — vestirse",
+            "pettinarsi — peinarse",
+            "truccarsi — maquillarse",
+            "radersi — afeitarse",
+            "addormentarsi — dormirse",
+            "riposarsi — descansar",
+            "divertirsi — divertirse",
+            "chiamarsi — llamarse"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "Mi sveglio alle sette.",
+              "tr": "Me despierto a las siete."
+            },
+            {
+              "it": "Mi chiamo Nick.",
+              "tr": "Me llamo Nick."
+            },
+            {
+              "it": "Si alza e fa la doccia.",
+              "tr": "Él se levanta y se ducha."
+            },
+            {
+              "it": "Come ti chiami?",
+              "tr": "¿Cómo te llamas?"
+            }
+          ]
+        }
+      ]
     }
   },
   "ere-verbs": {
@@ -1354,6 +1758,68 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Segunda conjugación",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Patrón",
+          "content": "Quita <strong>-ere</strong> → añade: <strong>-o, -i, -e, -iamo, -ete, -ono</strong><br><br>scrivere → scriv- → scrivo, scrivi, scrive, scriviamo, scrivete, scrivono"
+        },
+        {
+          "type": "pills",
+          "title": "Verbos -ERE Clave",
+          "items": [
+            "leggere — leer",
+            "scrivere — escribir",
+            "prendere — tomar",
+            "vedere — ver",
+            "vivere — vivir",
+            "credere — creer",
+            "rispondere — responder",
+            "chiedere — preguntar",
+            "mettere — poner",
+            "correre — correr",
+            "ridere — reír",
+            "perdere — perder",
+            "chiudere — cerrar",
+            "ripetere — repetir",
+            "vendere — vender",
+            "ricevere — recibir"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "Leggo il giornale ogni mattina.",
+              "tr": "Leo el periódico todas las mañanas."
+            },
+            {
+              "it": "Prende un caffè?",
+              "tr": "¿Va a tomar un café?"
+            },
+            {
+              "it": "Vedo Marco domani.",
+              "tr": "Veo a Marco mañana."
+            },
+            {
+              "it": "Scriviamo in italiano.",
+              "tr": "Escribimos en italiano."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "are-verbs",
+            "ire-verbs"
+          ]
+        }
+      ]
     }
   },
   "ire-verbs": {
@@ -1407,6 +1873,61 @@
         {
           "type": "links",
           "title": "Related",
+          "items": [
+            "isc-verbs",
+            "are-verbs",
+            "ere-verbs"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Tercera conjugación — tipo 1",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Patrón",
+          "content": "Quita <strong>-ire</strong> → añade: <strong>-o, -i, -e, -iamo, -ite, -ono</strong><br><br>dormire → dorm- → dormo, dormi, dorme, dormiamo, dormite, dormono"
+        },
+        {
+          "type": "pills",
+          "title": "Verbos -IRE Tipo 1",
+          "items": [
+            "dormire — dormir",
+            "partire — partir/salir",
+            "sentire — sentir/oír",
+            "aprire — abrir",
+            "coprire — cubrir",
+            "servire — servir",
+            "seguire — seguir",
+            "soffrire — sufrir"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "Dormo otto ore ogni notte.",
+              "tr": "Duermo ocho horas cada noche."
+            },
+            {
+              "it": "Il treno parte alle nove.",
+              "tr": "El tren sale a las nueve."
+            },
+            {
+              "it": "Sento un rumore strano.",
+              "tr": "Oigo un ruido extraño."
+            },
+            {
+              "it": "Apri la finestra, per favore.",
+              "tr": "Abre la ventana, por favor."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
           "items": [
             "isc-verbs",
             "are-verbs",
@@ -1482,6 +2003,75 @@
         {
           "type": "links",
           "title": "Related",
+          "items": [
+            "ire-verbs",
+            "preferire"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Verbos -ire con infijo -isc-",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "El Patrón -ISC-",
+          "content": "Inserta <strong>-isc-</strong> entre la raíz y la terminación para io/tu/lui/loro:<br><br>capire → cap-<strong>isc</strong>-o, cap-<strong>isc</strong>-i, cap-<strong>isc</strong>-e, cap-iamo, cap-ite, cap-<strong>isc</strong>-ono<br><br>¡Noi y voi NO llevan -isc-!"
+        },
+        {
+          "type": "table",
+          "title": "Capire — entender",
+          "rows": [
+            [
+              "io",
+              "capisco",
+              "entiendo"
+            ],
+            [
+              "tu",
+              "capisci",
+              "entiendes"
+            ],
+            [
+              "lui/lei",
+              "capisce",
+              "él/ella entiende"
+            ],
+            [
+              "noi",
+              "capiamo",
+              "entendemos"
+            ],
+            [
+              "voi",
+              "capite",
+              "entendéis"
+            ],
+            [
+              "loro",
+              "capiscono",
+              "entienden"
+            ]
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Verbos -ISC-",
+          "items": [
+            "capire — entender",
+            "finire — terminar",
+            "preferire — preferir",
+            "spedire — enviar",
+            "costruire — construir",
+            "guarire — curarse",
+            "pulire — limpiar",
+            "unire — unir",
+            "obbedire — obedecer"
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
           "items": [
             "ire-verbs",
             "preferire"
@@ -1843,6 +2433,80 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Gustar — ¡sujeto y objeto invertidos!",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "¡La Clave: Es Como Gustar!",
+          "content": "El verbo <em>piacere</em> funciona igual que \"gustar\" en español — lo que te agrada es el sujeto de la oración:<br><br><strong>Español:</strong> Me gusta la pizza. (la pizza = sujeto)<br><strong>Italiano:</strong> Mi piace la pizza. (la pizza = sujeto)<br><br>Literalmente: \"La pizza me es agradable.\"<br><br><strong>Piace</strong> = una cosa singular o infinitivo<br><strong>Piacciono</strong> = cosas en plural"
+        },
+        {
+          "type": "table",
+          "title": "Pronombres Indirectos",
+          "rows": [
+            [
+              "mi piace/piacciono",
+              "me gusta/me gustan"
+            ],
+            [
+              "ti piace/piacciono",
+              "te gusta/te gustan"
+            ],
+            [
+              "gli/le piace/piacciono",
+              "le gusta/le gustan"
+            ],
+            [
+              "ci piace/piacciono",
+              "nos gusta/nos gustan"
+            ],
+            [
+              "vi piace/piacciono",
+              "os gusta/os gustan"
+            ],
+            [
+              "gli piace/piacciono",
+              "les gusta/les gustan"
+            ]
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "Mi piace il calcio.",
+              "tr": "Me gusta el fútbol."
+            },
+            {
+              "it": "Ti piacciono i gatti?",
+              "tr": "¿Te gustan los gatos?"
+            },
+            {
+              "it": "Gli piace lavorare qui.",
+              "tr": "A él le gusta trabajar aquí."
+            },
+            {
+              "it": "Non mi piace alzarmi presto.",
+              "tr": "No me gusta levantarme temprano."
+            },
+            {
+              "it": "Le piacciono le scarpe.",
+              "tr": "A ella le gustan los zapatos."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "preferire",
+            "sports"
+          ]
+        }
+      ]
     }
   },
   "preferire": {
@@ -1920,6 +2584,78 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Preferir — verbo -isc- del grupo de gustos",
+      "sections": [
+        {
+          "type": "table",
+          "title": "Conjugación",
+          "rows": [
+            [
+              "io",
+              "preferisco",
+              "prefiero"
+            ],
+            [
+              "tu",
+              "preferisci",
+              "prefieres"
+            ],
+            [
+              "lui/lei",
+              "preferisce",
+              "él/ella prefiere"
+            ],
+            [
+              "noi",
+              "preferiamo",
+              "preferimos"
+            ],
+            [
+              "voi",
+              "preferite",
+              "preferís"
+            ],
+            [
+              "loro",
+              "preferiscono",
+              "prefieren"
+            ]
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Uso",
+          "content": "<strong>+ sustantivo:</strong> Preferisco il tè.<br><strong>+ infinitivo:</strong> Preferisco dormire.<br><strong>X a Y:</strong> Preferisco il caffè al tè."
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "Preferisci il mare o la montagna?",
+              "tr": "¿Prefieres el mar o la montaña?"
+            },
+            {
+              "it": "Preferisco lavorare da casa.",
+              "tr": "Prefiero trabajar desde casa."
+            },
+            {
+              "it": "Preferisce la pizza alla pasta.",
+              "tr": "Él prefiere la pizza a la pasta."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "piacere",
+            "isc-verbs"
+          ]
+        }
+      ]
     }
   },
   "articles-indef": {
@@ -1959,6 +2695,46 @@
         {
           "type": "links",
           "title": "Related",
+          "items": [
+            "articles-def",
+            "gender-number"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Un / Una — artículos indeterminados",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Las 4 Formas",
+          "content": "<strong>UN</strong> — masc. ante consonante: un libro, un amico<br><strong>UNO</strong> — masc. ante s+consonante, z, ps, gn: uno studente<br><strong>UNA</strong> — fem. ante consonante: una casa<br><strong>UN'</strong> — fem. ante vocal: un'amica, un'ora"
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "Ho un cane e una gatta.",
+              "tr": "Tengo un perro y una gata."
+            },
+            {
+              "it": "Sono uno studente di italiano.",
+              "tr": "Soy un estudiante de italiano."
+            },
+            {
+              "it": "Cerco un appartamento.",
+              "tr": "Estoy buscando un apartamento."
+            },
+            {
+              "it": "Ho un'idea!",
+              "tr": "¡Tengo una idea!"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
           "items": [
             "articles-def",
             "gender-number"
@@ -2012,6 +2788,48 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "El / La — ¡7 formas!",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Las 7 Formas",
+          "content": "<strong>IL</strong> — masc. sing., consonante: il libro<br><strong>LO</strong> — masc. sing., s+cons/z/gn: lo studente<br><strong>L'</strong> — masc/fem sing., vocal: l'amico, l'amica<br><strong>LA</strong> — fem. sing., consonante: la casa<br><strong>I</strong> — masc. plural, consonante: i libri<br><strong>GLI</strong> — masc. plural, vocal/s+cons/z: gli amici<br><strong>LE</strong> — fem. plural (todas): le case"
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "Il cane di Marco è grande.",
+              "tr": "El perro de Marco es grande."
+            },
+            {
+              "it": "Lo zaino è pesante.",
+              "tr": "La mochila es pesada."
+            },
+            {
+              "it": "Gli studenti studiano.",
+              "tr": "Los estudiantes estudian."
+            },
+            {
+              "it": "Le ragazze ballano.",
+              "tr": "Las chicas están bailando."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "articles-indef",
+            "prep-articolate",
+            "possessives",
+            "gender-number"
+          ]
+        }
+      ]
     }
   },
   "gender-number": {
@@ -2056,6 +2874,52 @@
         {
           "type": "links",
           "title": "Related",
+          "items": [
+            "articles-indef",
+            "articles-def",
+            "adj-agreement"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Género y plurales — ¡los sustantivos cambian!",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Reglas de Género",
+          "content": "<strong>Masculino:</strong> normalmente terminan en -O: libro, ragazzo<br><strong>Femenino:</strong> normalmente terminan en -A: casa, ragazza<br><strong>Ambos en -E:</strong> ¡pueden ser cualquiera de los dos! Revisa el artículo.<br>&nbsp;&nbsp;masc: il padre, il cane<br>&nbsp;&nbsp;fem: la madre, la notte"
+        },
+        {
+          "type": "rule",
+          "title": "Formación del Plural",
+          "content": "<strong>-O → -I:</strong> libro → libri<br><strong>-A → -E:</strong> casa → case<br><strong>-E → -I:</strong> padre → padri<br><strong>-CA/-GA → -CHE/-GHE:</strong> amica → amiche<br><strong>-CO/-GO → -CHI/-GHI:</strong> amico → amici"
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "un libro → due libri",
+              "tr": "un libro → dos libros"
+            },
+            {
+              "it": "una casa → tre case",
+              "tr": "una casa → tres casas"
+            },
+            {
+              "it": "il dottore → i dottori",
+              "tr": "el doctor → los doctores"
+            },
+            {
+              "it": "l'amica → le amiche",
+              "tr": "la amiga → las amigas"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
           "items": [
             "articles-indef",
             "articles-def",
@@ -2133,6 +2997,71 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Los adjetivos concuerdan en género y número",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Adjetivos de 4 formas (-O)",
+          "content": "<strong>masc. sing.:</strong> un ragazzo alto<br><strong>fem. sing.:</strong> una ragazza alta<br><strong>masc. plur.:</strong> ragazzi alti<br><strong>fem. plur.:</strong> ragazze alte"
+        },
+        {
+          "type": "rule",
+          "title": "Adjetivos de 2 formas (-E)",
+          "content": "Solo cambian según el número:<br><strong>sing.:</strong> un libro interessante / una storia interessante<br><strong>plur.:</strong> libri interessanti / storie interessanti<br><br>También: grande, elegante, felice, triste, giovane, verde, forte"
+        },
+        {
+          "type": "pills",
+          "title": "Adjetivos Comunes",
+          "items": [
+            "alto/a — alto",
+            "basso/a — bajo",
+            "bello/a — bonito/hermoso",
+            "brutto/a — feo",
+            "grande — grande",
+            "piccolo/a — pequeño",
+            "grasso/a — gordo",
+            "magro/a — delgado",
+            "vecchio/a — viejo",
+            "giovane — joven",
+            "simpatico/a — simpático",
+            "antipatico/a — antipático",
+            "stanco/a — cansado",
+            "felice — feliz",
+            "triste — triste",
+            "bravo/a — bueno/bien hecho",
+            "caro/a — caro/querido",
+            "corto/a — corto (longitud)",
+            "difficile — difícil",
+            "doppio/a — doble",
+            "facile — fácil",
+            "gentile — amable",
+            "importante — importante",
+            "intelligente — inteligente",
+            "interessante — interesante",
+            "largo/a — ancho",
+            "lungo/a — largo",
+            "nuovo/a — nuevo",
+            "ricco/a — rico",
+            "singolo/a — individual/soltero",
+            "sporco/a — sucio",
+            "straniero/a — extranjero",
+            "stretto/a — estrecho/ajustado",
+            "vero/a — verdadero/real"
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "colors",
+            "adj-suffixes",
+            "possessives",
+            "gender-number"
+          ]
+        }
+      ]
     }
   },
   "colors": {
@@ -2202,6 +3131,76 @@
         {
           "type": "links",
           "title": "Related",
+          "items": [
+            "adj-agreement",
+            "clothing"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Colores — ¡algunos son invariables!",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Colores Básicos",
+          "items": [
+            "rosso/a — rojo",
+            "blu — azul (inv.)",
+            "verde — verde (inv.)",
+            "giallo/a — amarillo",
+            "arancione — naranja (inv.)",
+            "viola — violeta/morado (inv.)",
+            "rosa — rosa (inv.)",
+            "bianco/a — blanco",
+            "nero/a — negro",
+            "grigio/a — gris",
+            "marrone — marrón (inv.)",
+            "azzurro/a — celeste",
+            "beige — beige (inv.)"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Colores de Pelo",
+          "items": [
+            "biondo/a — rubio",
+            "castano/a — castaño (pelo)",
+            "nero/a — negro (pelo)",
+            "rosso/a — rojo/pelirrojo (pelo)",
+            "grigio/a — gris (pelo)"
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Colores Invariables",
+          "content": "Los colores que terminan en -E o las palabras extranjeras permanecen iguales: <em>blu, verde, arancione, viola, rosa, marrone</em>. ¡NO cambian según el género ni el número!"
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "Ho una macchina rossa.",
+              "tr": "Tengo un coche rojo."
+            },
+            {
+              "it": "Porta una camicia blu.",
+              "tr": "Lleva una camisa azul."
+            },
+            {
+              "it": "Gli occhi verdi.",
+              "tr": "Ojos verdes."
+            },
+            {
+              "it": "Una borsa nera.",
+              "tr": "Un bolso negro."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
           "items": [
             "adj-agreement",
             "clothing"
@@ -2357,6 +3356,43 @@
         {
           "type": "links",
           "title": "Related",
+          "items": [
+            "andare",
+            "prep-articolate",
+            "places"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Preposiciones de destino",
+      "sections": [
+        {
+          "type": "rule",
+          "title": "Reglas de Destino",
+          "content": "<strong>A + ciudad:</strong> Vado a Roma / a Londra<br><strong>IN + país (fem.):</strong> Vado in Italia / in Francia<br><strong>IN + región:</strong> Vado in Toscana / in Sicilia<br><strong>NEL/NEGLI + país masc.:</strong> Vado negli Stati Uniti<br><strong>AL/ALLA + lugar:</strong> Vado al supermercato / alla palestra"
+        },
+        {
+          "type": "pills",
+          "title": "Destinos Comunes",
+          "items": [
+            "in ufficio — a la oficina",
+            "a casa — a casa",
+            "in palestra — al gimnasio",
+            "al bar — al bar/café",
+            "in centro — al centro",
+            "al cinema — al cine",
+            "in banca — al banco",
+            "al supermercato — al supermercado",
+            "in vacanza — de vacaciones",
+            "in farmacia — a la farmacia",
+            "al ristorante — al restaurante",
+            "a scuola — a la escuela"
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
           "items": [
             "andare",
             "prep-articolate",
@@ -2602,6 +3638,72 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Palabras interrogativas — ¡pregunta lo que sea!",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Palabras Interrogativas",
+          "items": [
+            "CHI — quién",
+            "CHE COSA / COSA — qué",
+            "DOVE — dónde",
+            "QUANDO — cuándo",
+            "COME — cómo",
+            "QUANTO/A — cuánto/a",
+            "QUANTI/E — cuántos/as",
+            "PERCHÉ — por qué",
+            "QUALE/QUALI — cuál/cuáles"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Preguntas Comunes",
+          "items": [
+            {
+              "it": "Chi sei?",
+              "tr": "¿Quién eres?"
+            },
+            {
+              "it": "Cosa fai?",
+              "tr": "¿Qué haces?"
+            },
+            {
+              "it": "Dove abiti?",
+              "tr": "¿Dónde vives?"
+            },
+            {
+              "it": "Quando arrivi?",
+              "tr": "¿Cuándo llegas?"
+            },
+            {
+              "it": "Come ti chiami?",
+              "tr": "¿Cómo te llamas?"
+            },
+            {
+              "it": "Quanto costa?",
+              "tr": "¿Cuánto cuesta?"
+            },
+            {
+              "it": "Perché studi italiano?",
+              "tr": "¿Por qué estudias italiano?"
+            },
+            {
+              "it": "Quale preferisci?",
+              "tr": "¿Cuál prefieres?"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "time-questions",
+            "greetings"
+          ]
+        }
+      ]
     }
   },
   "time-questions": {
@@ -2833,6 +3935,89 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Saludos y expresiones sociales",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Saludos Formales",
+          "items": [
+            "Buongiorno — Buenos días/buenas tardes",
+            "Buonasera — Buenas tardes/noches",
+            "Buonanotte — Buenas noches",
+            "Salve — Hola (neutro)",
+            "Come sta? — ¿Cómo está usted? (formal)",
+            "Piacere — Mucho gusto",
+            "Arrivederci — Adiós (formal)",
+            "Signore/Signora — Señor/Señora"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Saludos Informales",
+          "items": [
+            "Ciao — Hola/Chau",
+            "Come stai? — ¿Cómo estás?",
+            "Come va? — ¿Qué tal?",
+            "Tutto bene? — ¿Todo bien?",
+            "Ci vediamo! — ¡Nos vemos!",
+            "A presto! — ¡Hasta pronto!",
+            "A dopo! — ¡Hasta luego!",
+            "Dai! — ¡Vamos!/¡Dale!"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Expresiones de Cortesía",
+          "items": [
+            "Grazie — Gracias",
+            "Prego — De nada / Por favor",
+            "Scusa/Scusi — Perdón / Disculpe",
+            "Per favore — Por favor",
+            "Buon compleanno! — ¡Feliz cumpleaños!",
+            "Tanti auguri! — ¡Muchas felicidades!",
+            "Salute! / Cin cin! — ¡Salud!/¡Chinchín!",
+            "Buon Natale! — ¡Feliz Navidad!",
+            "Buona Pasqua! — ¡Felices Pascuas!",
+            "Bravo/a! — ¡Bien hecho!"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Respuestas a Come stai?",
+          "items": [
+            {
+              "it": "Bene, grazie! E tu?",
+              "tr": "¡Bien, gracias! ¿Y tú?"
+            },
+            {
+              "it": "Così così.",
+              "tr": "Así así."
+            },
+            {
+              "it": "Non c'è male!",
+              "tr": "¡No está mal!"
+            },
+            {
+              "it": "Benissimo!",
+              "tr": "¡Muy bien!"
+            },
+            {
+              "it": "Piacere mio!",
+              "tr": "¡El placer es mío!"
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "essere",
+            "interrogatives"
+          ]
+        }
+      ]
     }
   },
   "time-vocab": {
@@ -2900,6 +4085,68 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Días, meses y expresiones de tiempo",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Días de la Semana",
+          "items": [
+            "lunedì — lunes",
+            "martedì — martes",
+            "mercoledì — miércoles",
+            "giovedì — jueves",
+            "venerdì — viernes",
+            "sabato — sábado",
+            "domenica — domingo"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Meses del Año",
+          "items": [
+            "gennaio",
+            "febbraio",
+            "marzo",
+            "aprile",
+            "maggio",
+            "giugno",
+            "luglio",
+            "agosto",
+            "settembre",
+            "ottobre",
+            "novembre",
+            "dicembre"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Adverbios de Tiempo",
+          "items": [
+            "oggi — hoy",
+            "ieri — ayer",
+            "domani — mañana",
+            "adesso/ora — ahora",
+            "presto — temprano/pronto",
+            "tardi — tarde",
+            "sempre — siempre",
+            "mai — nunca",
+            "spesso — a menudo",
+            "di solito — normalmente",
+            "a volte — a veces",
+            "raramente — rara vez"
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "time-questions",
+            "routine"
+          ]
+        }
+      ]
     }
   },
   "routine": {
@@ -2946,6 +4193,54 @@
         {
           "type": "links",
           "title": "Related",
+          "items": [
+            "are-reflexive",
+            "time-vocab",
+            "fare"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Vocabulario y frases de la rutina diaria",
+      "sections": [
+        {
+          "type": "examples",
+          "title": "Rutina de Luca (ejemplo)",
+          "items": [
+            {
+              "it": "Mi sveglio alle 7:00.",
+              "tr": "Me despierto a las 7:00."
+            },
+            {
+              "it": "Faccio la doccia.",
+              "tr": "Me ducho."
+            },
+            {
+              "it": "Faccio colazione: caffè e cornetto.",
+              "tr": "Desayuno: café y cruasán."
+            },
+            {
+              "it": "Vado in ufficio alle 8:30.",
+              "tr": "Voy a la oficina a las 8:30."
+            },
+            {
+              "it": "Lavoro fino alle 18:00.",
+              "tr": "Trabajo hasta las 18:00."
+            },
+            {
+              "it": "Torno a casa e cucino.",
+              "tr": "Vuelvo a casa y cocino."
+            },
+            {
+              "it": "Mi addormento verso le 23:00.",
+              "tr": "Me duermo alrededor de las 23:00."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
           "items": [
             "are-reflexive",
             "time-vocab",
@@ -3070,6 +4365,50 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "Vocabulario de los miembros de la familia",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Miembros de la Familia",
+          "items": [
+            "il padre/papà — el padre/papá",
+            "la madre/mamma — la madre/mamá",
+            "il figlio — el hijo",
+            "la figlia — la hija",
+            "il fratello — el hermano",
+            "la sorella — la hermana",
+            "il nonno — el abuelo",
+            "la nonna — la abuela",
+            "lo zio — el tío",
+            "la zia — la tía",
+            "il cugino/a — el/la primo/a",
+            "il marito — el esposo",
+            "la moglie — la esposa",
+            "il fidanzato/a — el/la novio/a",
+            "i genitori — los padres",
+            "i nonni — los abuelos",
+            "il bambino/a — el/la niño/a",
+            "l'uomo — el hombre",
+            "la donna — la mujer",
+            "il ragazzo/a — el/la chico/a",
+            "il compagno/a — el/la compañero/a"
+          ]
+        },
+        {
+          "type": "rule",
+          "title": "Posesivos + Familia Singular",
+          "content": "¡No se usa artículo antes del posesivo con familiares en singular!<br>✓ mio padre (NO il mio padre)<br>✓ tua sorella<br><br>Excepciones — se necesita artículo:<br>• loro: il loro padre<br>• con adjetivo: il mio caro padre<br>• Plural siempre: i miei fratelli"
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "possessives"
+          ]
+        }
+      ]
     }
   },
   "places": {
@@ -3115,6 +4454,52 @@
         {
           "type": "links",
           "title": "Related",
+          "items": [
+            "andare-prep",
+            "prep-articolate"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Lugares en la ciudad",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "En la Ciudad",
+          "items": [
+            "il bar — el bar/café",
+            "il ristorante — el restaurante",
+            "il supermercato — el supermercado",
+            "la farmacia — la farmacia",
+            "la banca — el banco",
+            "l'ufficio — la oficina",
+            "la scuola — la escuela",
+            "l'università — la universidad",
+            "il museo — el museo",
+            "il teatro — el teatro",
+            "il cinema — el cine",
+            "la chiesa — la iglesia",
+            "il parco — el parque",
+            "la piazza — la plaza",
+            "la stazione — la estación",
+            "l'aeroporto — el aeropuerto",
+            "l'ospedale — el hospital",
+            "il mercato — el mercado",
+            "la palestra — el gimnasio",
+            "la biblioteca — la biblioteca",
+            "il negozio — la tienda",
+            "la posta — la oficina de correos",
+            "il parcheggio — el aparcamiento",
+            "il consolato — el consulado",
+            "l'ambasciata — la embajada",
+            "la pizzeria — la pizzería",
+            "la fermata — la parada de autobús/tranvía"
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
           "items": [
             "andare-prep",
             "prep-articolate"
@@ -3198,6 +4583,85 @@
         {
           "type": "links",
           "title": "Related",
+          "items": [
+            "avere",
+            "essere",
+            "adj-agreement"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Sentimientos y estados físicos",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Estados Emocionales (essere)",
+          "items": [
+            "felice/contento — feliz/contento",
+            "triste — triste",
+            "arrabbiato/a — enojado",
+            "stanco/a — cansado",
+            "nervoso/a — nervioso",
+            "ansioso/a — ansioso",
+            "emozionato/a — emocionado",
+            "sorpreso/a — sorprendido",
+            "deluso/a — decepcionado",
+            "annoiato/a — aburrido",
+            "innamorato/a — enamorado",
+            "geloso/a — celoso"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Estados Físicos (avere)",
+          "items": [
+            "ho fame — tengo hambre",
+            "ho sete — tengo sed",
+            "ho caldo — tengo calor",
+            "ho freddo — tengo frío",
+            "ho sonno — tengo sueño",
+            "ho paura — tengo miedo",
+            "ho fretta — tengo prisa",
+            "ho mal di testa — tengo dolor de cabeza",
+            "ho mal di stomaco — tengo dolor de estómago"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Salud",
+          "items": [
+            "malato/a — enfermo",
+            "stanco/a — cansado",
+            "bene — bien",
+            "male — mal",
+            "la salute — la salud",
+            "il dottore/ssa — el/la doctor/a",
+            "la medicina — la medicina",
+            "la farmacia — la farmacia"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "Sono stanco dopo il lavoro.",
+              "tr": "Estoy cansado después del trabajo."
+            },
+            {
+              "it": "Mi sento felice oggi!",
+              "tr": "¡Me siento feliz hoy!"
+            },
+            {
+              "it": "Ho paura dei ragni.",
+              "tr": "Tengo miedo de las arañas."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
           "items": [
             "avere",
             "essere",
@@ -3293,6 +4757,93 @@
             {
               "it": "Il conto, per favore.",
               "tr": "The bill, please."
+            }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "Comida, bebidas y restaurante",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Comidas",
+          "items": [
+            "la colazione — el desayuno",
+            "il pranzo — el almuerzo",
+            "la cena — la cena",
+            "lo spuntino — el refrigerio/merienda",
+            "l'aperitivo — el aperitivo"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Comida",
+          "items": [
+            "la pizza",
+            "la pasta",
+            "gli spaghetti",
+            "il riso — el arroz",
+            "il pane — el pan",
+            "la carne — la carne",
+            "il pesce — el pescado",
+            "la verdura — la verdura",
+            "la frutta — la fruta",
+            "il formaggio — el queso",
+            "il prosciutto — el jamón",
+            "le uova — los huevos",
+            "il pomodoro — el tomate",
+            "l'olio — el aceite",
+            "il sale — la sal",
+            "il pepe — la pimienta",
+            "lo zucchero — el azúcar",
+            "l'aceto — el vinagre",
+            "il latte — la leche"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "En la Mesa",
+          "items": [
+            "il piatto — el plato",
+            "il bicchiere — el vaso",
+            "la forchetta — el tenedor",
+            "il coltello — el cuchillo",
+            "il cucchiaio — la cuchara",
+            "la bottiglia — la botella",
+            "il menù — el menú",
+            "il conto — la cuenta"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "En el Bar / Restaurante",
+          "items": [
+            "un caffè — un café espresso",
+            "un cappuccino",
+            "un cornetto — un cruasán",
+            "l'acqua naturale/frizzante — agua sin gas/con gas",
+            "il vino rosso/bianco — el vino tinto/blanco",
+            "la birra — la cerveza",
+            "il succo di frutta — el zumo de fruta",
+            "il tè — el té"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Pedir",
+          "items": [
+            {
+              "it": "Vorrei un caffè, per favore.",
+              "tr": "Quisiera un café, por favor."
+            },
+            {
+              "it": "Cosa consiglia?",
+              "tr": "¿Qué recomienda?"
+            },
+            {
+              "it": "Il conto, per favore.",
+              "tr": "La cuenta, por favor."
             }
           ]
         }
@@ -3657,6 +5208,93 @@
           ]
         }
       ]
+    },
+    "es": {
+      "subtitle": "La casa, las habitaciones y los muebles",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "Habitaciones",
+          "items": [
+            "il soggiorno — la sala de estar",
+            "la cucina — la cocina",
+            "la camera (da letto) — el dormitorio",
+            "il bagno — el baño",
+            "lo studio — el estudio",
+            "il corridoio — el pasillo",
+            "il garage — el garaje",
+            "il giardino — el jardín",
+            "il balcone — el balcón",
+            "il terrazzo — la terraza"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Muebles y Objetos",
+          "items": [
+            "il letto — la cama",
+            "il tavolo — la mesa",
+            "la sedia — la silla",
+            "il divano — el sofá",
+            "l'armadio — el armario",
+            "la scrivania — el escritorio",
+            "la finestra — la ventana",
+            "la porta — la puerta",
+            "la scala — la escalera",
+            "il piano — el piso/planta",
+            "la lampada — la lámpara",
+            "lo specchio — el espejo"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Tipos de Vivienda",
+          "items": [
+            "l'appartamento — el apartamento",
+            "la casa — la casa",
+            "il palazzo — el edificio",
+            "la villa — la villa",
+            "la camera — la habitación (en el hotel)",
+            "singola/doppia — individual/doble (habitación)"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "La mia camera è al secondo piano.",
+              "tr": "Mi habitación está en el segundo piso."
+            },
+            {
+              "it": "Il bagno è al primo piano.",
+              "tr": "El baño está en el primer piso."
+            },
+            {
+              "it": "Il tavolo è in cucina.",
+              "tr": "La mesa está en la cocina."
+            },
+            {
+              "it": "Il letto è comodo.",
+              "tr": "La cama es cómoda."
+            },
+            {
+              "it": "Apro la finestra perché fa caldo.",
+              "tr": "Abro la ventana porque hace calor."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
+          "items": [
+            "places",
+            "simple-prep",
+            "prep-articolate",
+            "andare-prep"
+          ]
+        }
+      ]
     }
   },
   "trasporti": {
@@ -3932,6 +5570,96 @@
         {
           "type": "links",
           "title": "Related",
+          "items": [
+            "are-verbs",
+            "isc-verbs",
+            "places",
+            "routine"
+          ]
+        }
+      ]
+    },
+    "es": {
+      "subtitle": "La escuela, el trabajo y la vida profesional",
+      "sections": [
+        {
+          "type": "pills",
+          "title": "En la Escuela",
+          "items": [
+            "il libro — el libro",
+            "il quaderno — el cuaderno",
+            "la penna — el bolígrafo",
+            "la matita — el lápiz",
+            "il dizionario — el diccionario",
+            "la classe — la clase",
+            "la lezione — la lección",
+            "il corso — el curso",
+            "l'esercizio — el ejercicio",
+            "la domanda — la pregunta",
+            "la risposta — la respuesta",
+            "il compito — la tarea",
+            "l'esame — el examen",
+            "il voto — la nota"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "Personas",
+          "items": [
+            "l'insegnante — el/la maestro/a",
+            "il professore/ssa — el/la profesor/a",
+            "lo studente/ssa — el/la estudiante",
+            "il compagno/a di classe — el/la compañero/a de clase",
+            "il direttore/ssa — el/la director/a"
+          ]
+        },
+        {
+          "type": "pills",
+          "title": "En el Trabajo",
+          "items": [
+            "il lavoro — el trabajo",
+            "l'ufficio — la oficina",
+            "la riunione — la reunión",
+            "il collega/a — el/la colega",
+            "l'azienda — la empresa",
+            "il capo — el jefe",
+            "lo stipendio — el salario",
+            "il contratto — el contrato",
+            "lavorare — trabajar",
+            "imparare — aprender",
+            "insegnare — enseñar",
+            "studiare — estudiar"
+          ]
+        },
+        {
+          "type": "examples",
+          "title": "Ejemplos",
+          "items": [
+            {
+              "it": "La lezione comincia alle nove.",
+              "tr": "La lección empieza a las nueve."
+            },
+            {
+              "it": "Seguo un corso di italiano.",
+              "tr": "Sigo un curso de italiano."
+            },
+            {
+              "it": "Studio l'italiano ogni giorno.",
+              "tr": "Estudio italiano todos los días."
+            },
+            {
+              "it": "Il professore spiega la grammatica.",
+              "tr": "El profesor explica la gramática."
+            },
+            {
+              "it": "Lavoro in ufficio dalle nove alle sei.",
+              "tr": "Trabajo en la oficina de nueve a seis."
+            }
+          ]
+        },
+        {
+          "type": "links",
+          "title": "Relacionado",
           "items": [
             "are-verbs",
             "isc-verbs",
