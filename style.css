@@ -1,6 +1,7 @@
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body { height: 100%; overscroll-behavior: none; }
   body { background: #F2EBE0; font-family: 'Segoe UI', system-ui, sans-serif; overflow: hidden; color: #2C1F14; }
-  #canvas { display: block; position: absolute; top: 0; left: 0; }
+  #canvas { display: block; position: absolute; top: 0; left: 0; touch-action: none; }
 
   #header {
     position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
@@ -150,3 +151,33 @@
   }
   #fc-close-btn:hover { background: rgba(44,31,20,0.14); }
   #fc-type-label { font-size: 11px; color: rgba(44,31,20,0.3); text-transform: uppercase; letter-spacing: 1px; }
+
+  /* -- Mobile -- */
+  @media (max-width: 640px) {
+    #header { top: 10px; padding: 6px 14px; max-width: calc(100vw - 20px); }
+    #header h1 { font-size: 13px; letter-spacing: 0; white-space: normal; }
+
+    #search-bar { top: 62px; right: 10px; }
+    #search-bar input { width: 110px; font-size: 12px; padding: 7px 12px; }
+    #search-bar input:focus { width: 140px; }
+
+    #hint { display: none; }
+
+    #legend {
+      left: 10px; right: 10px; bottom: 10px; top: auto;
+      flex-direction: row; flex-wrap: nowrap; overflow-x: auto;
+      gap: 4px; padding-bottom: 2px; -webkit-overflow-scrolling: touch;
+    }
+    .legend-item { font-size: 10px; padding: 4px 9px 4px 6px; flex-shrink: 0; }
+    .legend-dot { width: 7px; height: 7px; }
+
+    #panel { width: 100%; right: -100%; }
+    #panel-header { padding: 18px 18px 14px; }
+    #panel-body { padding: 16px 18px 32px; }
+    #panel-icon { font-size: 30px; }
+    #panel-title { font-size: 18px; }
+
+    #fc-card { padding: 26px 22px; min-height: 180px; }
+    #fc-front { font-size: 19px; }
+    .fc-btn { padding: 9px 16px; }
+  }

@@ -72,8 +72,20 @@ function resize() {
   canvas.width = W * DPR; canvas.height = H * DPR;
   canvas.style.width = W + 'px'; canvas.style.height = H + 'px';
   ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  layoutChrome();
 }
 window.addEventListener('resize', resize);
+window.addEventListener('orientationchange', () => setTimeout(resize, 200));
+
+// On narrow screens the header can wrap to 2-3 lines depending on the
+// student's language/title length, so the search bar's position below it
+// has to be measured, not guessed with a fixed offset.
+function layoutChrome() {
+  const searchBar = document.getElementById('search-bar');
+  if (window.innerWidth > 640) { searchBar.style.top = ''; return; }
+  const headerRect = document.getElementById('header').getBoundingClientRect();
+  searchBar.style.top = Math.round(headerRect.bottom + 10) + 'px';
+}
 
 // Seed positions by category cluster
 const CLUSTER = {
@@ -249,6 +261,55 @@ canvas.addEventListener('wheel',e=>{
   zoom=Math.max(0.25,Math.min(3.5,zoom*f));
 },{passive:false});
 
+// ─── TOUCH (drag / tap / pinch-zoom / two-finger pan) ────────────────────
+let pinchDist=null,pinchMidX=0,pinchMidY=0,touchStartX=0,touchStartY=0;
+function touchDist(t0,t1){const dx=t1.clientX-t0.clientX,dy=t1.clientY-t0.clientY;return Math.sqrt(dx*dx+dy*dy);}
+function touchMid(t0,t1){return{x:(t0.clientX+t1.clientX)/2,y:(t0.clientY+t1.clientY)/2};}
+
+canvas.addEventListener('touchstart',e=>{
+  e.preventDefault();
+  if(e.touches.length===2){
+    dragging=null;isPan=false;
+    pinchDist=touchDist(e.touches[0],e.touches[1]);
+    const m=touchMid(e.touches[0],e.touches[1]);
+    pinchMidX=m.x;pinchMidY=m.y;
+    return;
+  }
+  const t=e.touches[0];
+  touchStartX=t.clientX;touchStartY=t.clientY;dragMoved=false;
+  const n=nodeAt(t.clientX,t.clientY);
+  if(n){dragging=n;const w=worldPos(t.clientX,t.clientY);dragOffX=n.x-w.x;dragOffY=n.y-w.y;}
+  else{isPan=true;lastMX=t.clientX;lastMY=t.clientY;}
+},{passive:false});
+
+canvas.addEventListener('touchmove',e=>{
+  e.preventDefault();
+  if(e.touches.length===2&&pinchDist!==null){
+    const d=touchDist(e.touches[0],e.touches[1]);
+    const f=d/pinchDist;
+    const m=touchMid(e.touches[0],e.touches[1]);
+    panX=m.x-(pinchMidX-panX)*f;
+    panY=m.y-(pinchMidY-panY)*f;
+    zoom=Math.max(0.25,Math.min(3.5,zoom*f));
+    pinchDist=d;pinchMidX=m.x;pinchMidY=m.y;
+    return;
+  }
+  const t=e.touches[0];
+  if(Math.abs(t.clientX-touchStartX)+Math.abs(t.clientY-touchStartY)>8)dragMoved=true;
+  if(dragging){const w=worldPos(t.clientX,t.clientY);dragging.x=w.x+dragOffX;dragging.y=w.y+dragOffY;dragging.vx=0;dragging.vy=0;}
+  else if(isPan){panX+=t.clientX-lastMX;panY+=t.clientY-lastMY;lastMX=t.clientX;lastMY=t.clientY;}
+},{passive:false});
+
+canvas.addEventListener('touchend',e=>{
+  e.preventDefault();
+  if(pinchDist!==null&&e.touches.length<2)pinchDist=null;
+  if(!dragMoved){
+    if(dragging)openPanel(dragging.key);
+    else if(isPan&&!e.target.closest('#panel'))closePanel();
+  }
+  dragging=null;isPan=false;
+},{passive:false});
+
 // ─── PANEL ──────────────────────────────────────────────────────────────
 function openPanel(key){
   const d=DATA[key]; if(!d)return;
@@ -407,9 +468,14 @@ function start() {
   resize();
   if (!W || !H) { requestAnimationFrame(start); return; }
   init();
+  // Let the force layout roughly settle before measuring, so the initial
+  // fit isn't based on the raw (jittery) seed positions.
+  for (let i = 0; i < 80; i++) forces();
   let minX=Infinity,maxX=-Infinity,minY=Infinity,maxY=-Infinity;
-  nodes.forEach(n=>{minX=Math.min(minX,n.x);maxX=Math.max(maxX,n.x);minY=Math.min(minY,n.y);maxY=Math.max(maxY,n.y);});
-  panX = W/2 - (minX+maxX)/2;
-  panY = H/2 - (minY+maxY)/2;
+  nodes.forEach(n=>{minX=Math.min(minX,n.x-n.radius);maxX=Math.max(maxX,n.x+n.radius);minY=Math.min(minY,n.y-n.radius);maxY=Math.max(maxY,n.y+n.radius);});
+  const graphW = Math.max(1, maxX - minX), graphH = Math.max(1, maxY - minY);
+  zoom = Math.max(0.35, Math.min(2.2, Math.min((W * 0.92) / graphW, (H * 0.82) / graphH)));
+  panX = W/2 - zoom*(minX+maxX)/2;
+  panY = H/2 - zoom*(minY+maxY)/2;
   draw();
 }
