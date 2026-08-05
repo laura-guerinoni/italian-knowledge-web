@@ -2,9 +2,14 @@
   html, body { height: 100%; overflow: hidden; overscroll-behavior: none; touch-action: none; }
   body { background: #F2EBE0; font-family: 'Segoe UI', system-ui, sans-serif; color: #2C1F14; }
   #canvas { display: block; position: absolute; top: 0; left: 0; touch-action: none; }
-  #search-bar input { touch-action: auto; }
-  #panel { touch-action: auto; }
-  #flashcard-overlay { touch-action: auto; }
+  /* touch-action isn't inherited, so every interactive/scrollable UI
+     overlay needs its descendants opted back in explicitly, not just
+     the container itself (that was the bug: buttons/links/pills inside
+     these still had touch-action:none from the universal rule above). */
+  #search-bar, #search-bar * { touch-action: auto; }
+  #panel, #panel * { touch-action: auto; }
+  #flashcard-overlay, #flashcard-overlay * { touch-action: auto; }
+  #legend, #legend * { touch-action: auto; }
 
   #header {
     position: absolute; top: 20px; left: 50%; transform: translateX(-50%);
