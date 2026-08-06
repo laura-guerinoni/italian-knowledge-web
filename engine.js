@@ -314,6 +314,7 @@ canvas.addEventListener('touchend',e=>{
 function openPanel(key){
   const d=DATA[key]; if(!d)return;
   selectedNode=nodes.find(n=>n.key===key);
+  trackTopicOpen(key, d.title);
   document.getElementById('panel-icon').textContent=d.icon;
   document.getElementById('panel-title').textContent=d.title;
   document.getElementById('panel-subtitle').textContent=d.subtitle;
@@ -515,4 +516,15 @@ function showTrackingToast(disabled) {
   document.body.appendChild(el);
   requestAnimationFrame(() => { el.style.opacity = '1'; });
   setTimeout(() => { el.style.opacity = '0'; setTimeout(() => el.remove(), 300); }, 3500);
+}
+
+// Every topic opened is logged as its own GoatCounter event (not a
+// pageview — this is a single-page app, so the URL never changes). All
+// opens share one event path ('topic-open') so the daily total is a
+// single number to pull for the heatmap; no_session means repeat opens
+// of the same topic in one sitting all count, instead of being
+// deduplicated the way GoatCounter dedupes repeat pageviews.
+function trackTopicOpen(key, title) {
+  if (!window.goatcounter || !window.goatcounter.count) return;
+  window.goatcounter.count({ path: 'topic-open', title: title + ' (' + key + ')', event: true, no_session: true });
 }
