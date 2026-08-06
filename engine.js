@@ -479,3 +479,40 @@ function start() {
   panY = H/2 - zoom*(minY+maxY)/2;
   draw();
 }
+
+// ─── VISIT TRACKING (opt-out, self-hosted decision) ──────────────────────
+// GoatCounter's own #toggle-goatcounter opt-out depends on its script
+// actually loading and running, which is unreliable across ad-blockers /
+// tracking-prevention / load timing. This version decides BEFORE ever
+// loading that script, based on a flag we control entirely: visiting with
+// ?notrack=1 once sets a persistent localStorage flag in that browser, and
+// if it's set, the tracking script is never even inserted into the page.
+const NOTRACK_KEY = 'iw-notrack';
+
+function initTracking(path) {
+  const params = new URLSearchParams(location.search);
+  if (params.has('notrack')) {
+    const disable = params.get('notrack') !== '0';
+    localStorage.setItem(NOTRACK_KEY, disable ? '1' : '0');
+    showTrackingToast(disable);
+  }
+  if (localStorage.getItem(NOTRACK_KEY) === '1') return;
+
+  const s = document.createElement('script');
+  s.async = true;
+  s.src = '//gc.zgo.at/count.js';
+  s.setAttribute('data-goatcounter', 'https://laurikitita.goatcounter.com/count');
+  s.setAttribute('data-goatcounter-settings', JSON.stringify({ path }));
+  document.body.appendChild(s);
+}
+
+function showTrackingToast(disabled) {
+  const el = document.createElement('div');
+  el.textContent = disabled ? 'Tracking disabled for this browser' : 'Tracking re-enabled for this browser';
+  el.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);'
+    + 'background:#2C1F14;color:#fff;padding:10px 20px;border-radius:20px;font-size:13px;'
+    + 'z-index:999;opacity:0;transition:opacity 0.3s;pointer-events:none;white-space:nowrap;';
+  document.body.appendChild(el);
+  requestAnimationFrame(() => { el.style.opacity = '1'; });
+  setTimeout(() => { el.style.opacity = '0'; setTimeout(() => el.remove(), 300); }, 3500);
+}
